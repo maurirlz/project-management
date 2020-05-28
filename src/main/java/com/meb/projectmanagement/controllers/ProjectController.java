@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.List;
+
 @RequestMapping("/projects")
 @Controller
 public class ProjectController {
@@ -23,7 +25,7 @@ public class ProjectController {
 
         model.addAttribute("project", aProject);
 
-        return "new-projects";
+        return "projects/new-project";
     }
 
     @PostMapping(value = "/save")
@@ -34,5 +36,15 @@ public class ProjectController {
 
         // use a redirect to prevent duplicate submissions
         return "redirect:/projects/new";
+    }
+
+    @GetMapping(value = "/list")
+    public String displayProjects(Model model) {
+
+        List<Project> projects = projectRepository.findAll();
+
+        model.addAttribute("projectsList", projects);
+
+        return "projects/project-home";
     }
 }

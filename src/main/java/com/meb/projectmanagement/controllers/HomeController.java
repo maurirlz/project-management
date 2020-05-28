@@ -34,7 +34,7 @@ public class HomeController {
         model.addAttribute("employeesList", employees);
         model.addAttribute("projectsList", projects);
 
-        return "home";
+        return "main/home";
     }
 
 }
