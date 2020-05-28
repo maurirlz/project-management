@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>New Project</title>
+
+</head>
+<body>
+
+<div class="projectTable">
+    <h4> Current Projects </h4>
+    <table>
+        <thead>
+        <tr>
+            <th> Project Name </th>
+            <th> Project State </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="aProject : ${projectsList}">
+            <td th:text="${aProject.name}"></td>
+            <td th:text="${aProject.stage}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<br/>
+<br/>
+<div class="employeeTable">
+    <h4> Current Employees</h4>
+    <table>
+        <thead>
+        <tr>
+            <th> First Name </th>
+            <th> Last Name </th>
+            <th> Email </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="employee : ${employeesList}">
+            <td th:text="${employee.firstName} "> </td>
+            <td th:text="${employee.lastName} "> </td>
+            <td th:text="${employee.emailAddress} "></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

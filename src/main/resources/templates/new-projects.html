@@ -15,21 +15,20 @@
 </head>
 
 <body>
-    <div class="container">
-        <form action="/projects/save" th:object="${project}" method="POST">
+<div class="container">
+    <form action="/projects/save" th:object="${project}" method="POST">
 
-            <input type="text" th:field="${project.name}" placeholder="Project Name">
+        <input type="text" th:field="${project.name}" placeholder="Project Name">
 
-            <select>
-                <option th:value="NOTSTARTED" th:field="${project.stage}"> Not Started</option>
-                <option th:value="INPROGRESS" th:field="${project.stage}"> In Progress</option>
-                <option th:value="COMPLETED" th:field="${project.stage}"> Completed</option>
-            </select>
+        <select th:field="${project.stage}">
+            <option th:value="NOTSTARTED">Not Started</option>
+            <option th:value="INPROGRESS">In Progress</option>
+            <option th:value="COMPLETED">Completed</option>
+        </select>
 
-            <textarea type="text" placeholder="Enter Project Description" th:field="${project.description}"></textarea>
-
-            <button type="submit">Create Project.</button>
-        </form>
-    </div>
+        <textarea type="text" placeholder="Enter Project Description" th:field="${project.description}"></textarea>
+        <button type="submit">Create Project.</button>
+    </form>
+</div>
 </body>
 </html>

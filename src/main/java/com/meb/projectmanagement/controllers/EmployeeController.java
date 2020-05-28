@@ -17,17 +17,17 @@ public class EmployeeController {
     EmployeeRepository employeeRepository;
 
     @GetMapping("/new")
-    public String createEmployee(Model model) {
+    public String displayEmployeeForm(Model model) {
 
         Employee newEmployee = new Employee();
 
         model.addAttribute("employee", newEmployee);
 
-        return "new-employees";
+        return "new-employee";
     }
 
     @PostMapping(value = "/save")
-    public String saveNewEmployee(Employee employee) {
+    public String createEmployee(Employee employee) {
 
         employeeRepository.save(employee);
 
