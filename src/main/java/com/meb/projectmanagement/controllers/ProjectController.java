@@ -18,6 +18,16 @@ public class ProjectController {
     @Autowired
     ProjectRepository projectRepository;
 
+    @GetMapping
+    public String displayProjects(Model model) {
+
+        List<Project> projects = projectRepository.findAll();
+
+        model.addAttribute("projectsList", projects);
+
+        return "/projects/list-projects";
+    }
+
     @GetMapping("/new")
     public String displayProjectForm(Model model) {
 
@@ -36,15 +46,5 @@ public class ProjectController {
 
         // use a redirect to prevent duplicate submissions
         return "redirect:/projects/new";
-    }
-
-    @GetMapping(value = "/list")
-    public String displayProjects(Model model) {
-
-        List<Project> projects = projectRepository.findAll();
-
-        model.addAttribute("projectsList", projects);
-
-        return "projects/project-home";
     }
 }

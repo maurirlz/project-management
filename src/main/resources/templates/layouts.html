@@ -1,74 +1,96 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head th:fragment="header">
-    <!-- Required meta tags-->
+	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" th:href="@{/css/formatting.css}">
+	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
 </head>
+<body>
+	<nav th:fragment = "navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#"> Project IO</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	      <li class="nav-item active">
+	        <a class="nav-link" th:href="@{/}">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" th:href="@{/employees}">Employees</a>
+	      </li>
+	            <li class="nav-item">
+	        <a class="nav-link" th:href="@{/projects}">Projects</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<div class="container" th:fragment="projectsTable">
+		<h3>Projects Directory</h3>
+		<hr>
 
-<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"> Project IO </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+		<!--  Add New Project Button -->
+		<a th:href="@{/projects/new}"
+		   class="btn btn-primary btn-sm mb-3">
+			New Project
+		</a>
+		<table class="table table-bordered table-striped">
+			<thead class="thead-dark">
+			<tr>
+				<th>Project Name</th>
+				<th>Project Stage</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr th:each="aProject : ${projectsList}">
+				<td th:text="${aProject.name}"></td>
+				<td th:text="${aProject.stage}"></td>
+			</tr>
+			</tbody>
 
-    </button>
+		</table>
+	</div>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="/"> Home </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/employees/list"> Employees </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/projects/list"> Projects </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+	<div class="container" th:fragment="employeesTable">
+		<h3>Employee Directory</h3>
+		<hr>
 
-<div class="projectTable" th:fragment="projects">
-    <h4> Current Projects </h4>
-    <table>
-        <thead>
-        <tr>
-            <th> Project Name </th>
-            <th> Project State </th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="aProject : ${projectsList}">
-            <td th:text="${aProject.name}"></td>
-            <td th:text="${aProject.stage}"></td>
-        </tr>
-        </tbody>
-    </table>
-</div>
-<br/>
-<br/>
-<div class="employeeTable" th:fragment="employees">
-    <h4> Current Employees</h4>
-    <table>
-        <thead>
-        <tr>
-            <th> First Name </th>
-            <th> Last Name </th>
-            <th> Email </th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="employee : ${employeesList}">
-            <td th:text="${employee.firstName} "> </td>
-            <td th:text="${employee.lastName} "> </td>
-            <td th:text="${employee.emailAddress} "></td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+		<!--  Add New Employee Button -->
+		<a th:href="@{/employees/new}"
+		   class="btn btn-primary btn-sm mb-3"> 
+			Add Employee 
+		</a> 
+		<br/>
+
+		<table class="table table-bordered table-striped">
+			<thead class="thead-dark">
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr th:each="aEmployee : ${employeesList}">
+				<td th:text="${aEmployee.firstName}"></td>
+				<td th:text="${aEmployee.lastName}"></td>
+				<td th:text="${aEmployee.emailAddress}"></td>
+			</tr>
+			</tbody>
+
+		</table>
+	</div>
+</body>
 </html>
