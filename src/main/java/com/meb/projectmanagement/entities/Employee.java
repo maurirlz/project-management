@@ -1,9 +1,10 @@
 package com.meb.projectmanagement.entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
-public class Employee {
+public class  Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -13,10 +14,12 @@ public class Employee {
     private String lastName;
     private String emailAddress;
 
-    @ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH},
+    @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH},
     fetch = FetchType.LAZY)
-    @JoinColumn(name="project_id")
-    private Project assignedProject;
+    @JoinTable(name = "project_employee",
+            joinColumns = @JoinColumn(name = "employee_id"),
+            inverseJoinColumns = @JoinColumn(name = "project_id"))
+    private List<Project> assignedProject;
 
     public Employee() {
 
@@ -60,11 +63,11 @@ public class Employee {
         this.emailAddress = emailAddress;
     }
 
-    public Project getAssignedProject() {
+    public List<Project> getAssignedProject() {
         return assignedProject;
     }
 
-    public void setAssignedProject(Project assignedProject) {
+    public void setAssignedProject(List<Project> assignedProject) {
         this.assignedProject = assignedProject;
     }
 }
