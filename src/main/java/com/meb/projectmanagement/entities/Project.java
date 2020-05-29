@@ -1,9 +1,7 @@
 package com.meb.projectmanagement.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Project {
@@ -16,6 +14,9 @@ public class Project {
     private String stage; // NOTSTARTED, COMPLETED, INPROGRESS
 
     private String description;
+
+    @OneToMany(mappedBy = "assignedProject")
+    private List<Employee> employees;
 
     public Project() {
     }
@@ -56,5 +57,13 @@ public class Project {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public void setEmployees(List<Employee> employees) {
+        this.employees = employees;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
     }
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en" >
 
 <head th:replace="layouts :: header">
     <title> Create A New Project </title>
@@ -12,15 +12,23 @@
 <div class="container">
     <form action="/projects/save" th:object="${project}" method="POST">
 
-        <input type="text" th:field="${project.name}" placeholder="Project Name">
+        <input type="text" th:field="*{name}" placeholder="Project Name">
 
-        <select th:field="${project.stage}">
+        <select th:field="*{stage}">
             <option th:value="NOTSTARTED">Not Started</option>
             <option th:value="INPROGRESS">In Progress</option>
             <option th:value="COMPLETED">Completed</option>
         </select>
 
-        <textarea type="text" placeholder="Enter Project Description" th:field="${project.description}"></textarea>
+        <textarea type="text" placeholder="Enter Project Description" th:field="*{description}"></textarea>
+
+        <select th:field="*{employees}" multiple="multiple">
+            <option th:each="employee : ${allEmployees}"
+            th:value="${employee.employeeId}"
+            th:text="${employee.firstName}">
+            </option>
+        </select>
+
         <button type="submit">Create Project.</button>
     </form>
 </div>
