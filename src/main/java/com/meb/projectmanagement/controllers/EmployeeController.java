@@ -15,8 +15,12 @@ import java.util.List;
 @Controller
 public class EmployeeController {
 
-    @Autowired
     EmployeeRepository employeeRepository;
+
+    @Autowired
+    public EmployeeController(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
 
     @GetMapping()
     public String displayEmployees(Model model) {

@@ -1,13 +1,14 @@
 package com.meb.projectmanagement.entities;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 public class Project {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long projectId;
     private String name;
 
@@ -68,5 +69,15 @@ public class Project {
 
     public List<Employee> getEmployees() {
         return employees;
+    }
+
+    public void addEmployee(Employee emp) {
+
+        if (employees == null) {
+
+            employees = new ArrayList<>();
+        }
+
+        employees.add(emp);
     }
 }

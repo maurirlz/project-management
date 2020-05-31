@@ -1,0 +1,1 @@
+-- Get count of how many projects each employee has:
