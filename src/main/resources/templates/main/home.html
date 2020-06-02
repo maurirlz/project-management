@@ -14,7 +14,6 @@
     <hr>
     <div class="row">
         <div class="col-md-6">
-
             <table class="table table-bordered table-striped">
                 <thead class="thead-dark">
                 <tr>
@@ -32,6 +31,11 @@
         </div>
         <div class="col-md-4">
             <canvas id="myPieChart" height="50" th:width="50"></canvas>
+
+            <script>
+                let chartData = "[[${projectStatusCount}]]"
+
+            </script>
         </div>
     </div>
 </div>

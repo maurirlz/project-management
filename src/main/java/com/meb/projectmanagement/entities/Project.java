@@ -31,6 +31,16 @@ public class Project {
         this.description = description;
     }
 
+    public void addEmployee(Employee emp) {
+
+        if (employees == null) {
+
+            employees = new ArrayList<>();
+        }
+
+        employees.add(emp);
+    }
+
     public long getProjectId() {
         return projectId;
     }
@@ -69,15 +79,5 @@ public class Project {
 
     public List<Employee> getEmployees() {
         return employees;
-    }
-
-    public void addEmployee(Employee emp) {
-
-        if (employees == null) {
-
-            employees = new ArrayList<>();
-        }
-
-        employees.add(emp);
     }
 }

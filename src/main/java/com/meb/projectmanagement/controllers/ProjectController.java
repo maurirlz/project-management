@@ -51,7 +51,7 @@ public class ProjectController {
     }
 
     @PostMapping(value = "/save")
-    public String createProject(Model model, Project project) {
+    public String createProject(Project project) {
         // handles saving to the database.
 
         projectRepository.save(project);
