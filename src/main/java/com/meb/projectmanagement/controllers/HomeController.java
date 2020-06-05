@@ -2,23 +2,26 @@ package com.meb.projectmanagement.controllers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 import com.meb.projectmanagement.dao.EmployeeRepository;
 import com.meb.projectmanagement.dao.ProjectRepository;
-import com.meb.projectmanagement.dto.EmployeeProject;
 import com.meb.projectmanagement.dto.ChartData;
+import com.meb.projectmanagement.dto.EmployeeProject;
 import com.meb.projectmanagement.entities.Project;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Controller
 public class HomeController {
+
+    @Value("${version}")
+    private String ver;
 
     ProjectRepository projectRepository;
     EmployeeRepository employeeRepository;
@@ -32,7 +35,7 @@ public class HomeController {
     @GetMapping("/")
     public String displayHome(Model model) throws JsonProcessingException {
 
-        Map<String, Object> map = new HashMap<>();
+        model.addAttribute("versionNumber", ver);
 
         // we are querying the database for all projects
 
