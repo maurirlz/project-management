@@ -1,10 +1,10 @@
 package com.meb.projectmanagement.controllers;
 
-import com.meb.projectmanagement.dao.EmployeeRepository;
-import com.meb.projectmanagement.dao.ProjectRepository;
 import com.meb.projectmanagement.entities.Employee;
 import com.meb.projectmanagement.entities.Project;
 
+import com.meb.projectmanagement.services.EmployeeService;
+import com.meb.projectmanagement.services.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,19 +18,19 @@ import java.util.List;
 @Controller
 public class ProjectController {
 
-    ProjectRepository projectRepository;
-    EmployeeRepository employeeRepository;
+    EmployeeService employeeService;
+    ProjectService projectService;
 
     @Autowired
-    public ProjectController(ProjectRepository projectRepository, EmployeeRepository employeeRepository) {
-        this.projectRepository = projectRepository;
-        this.employeeRepository = employeeRepository;
+    public ProjectController(EmployeeService employeeService, ProjectService projectService) {
+        this.employeeService = employeeService;
+        this.projectService = projectService;
     }
 
     @GetMapping
     public String displayProjects(Model model) {
 
-        List<Project> projects = projectRepository.findAll();
+        List<Project> projects = projectService.getAllProjects();
 
         model.addAttribute("projectsList", projects);
 
@@ -42,7 +42,7 @@ public class ProjectController {
 
         Project aProject = new Project();
 
-        List<Employee> employees = employeeRepository.findAll();
+        List<Employee> employees = employeeService.getAllEmployees();
 
         model.addAttribute("project", aProject);
         model.addAttribute("allEmployees", employees);
@@ -54,7 +54,7 @@ public class ProjectController {
     public String createProject(Project project) {
         // handles saving to the database.
 
-        projectRepository.save(project);
+        projectService.save(project);
 
         // use a redirect to prevent duplicate submissions
         return "redirect:/projects";

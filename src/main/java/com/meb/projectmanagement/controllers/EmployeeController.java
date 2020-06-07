@@ -2,6 +2,7 @@ package com.meb.projectmanagement.controllers;
 
 import com.meb.projectmanagement.dao.EmployeeRepository;
 import com.meb.projectmanagement.entities.Employee;
+import com.meb.projectmanagement.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,17 +16,17 @@ import java.util.List;
 @Controller
 public class EmployeeController {
 
-    EmployeeRepository employeeRepository;
+    EmployeeService employeeService;
 
     @Autowired
-    public EmployeeController(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
     @GetMapping()
     public String displayEmployees(Model model) {
 
-        List<Employee> employeeList = employeeRepository.findAll();
+        List<Employee> employeeList = employeeService.getAllEmployees();
 
         model.addAttribute("employeesList", employeeList);
 
@@ -45,7 +46,7 @@ public class EmployeeController {
     @PostMapping(value = "/save")
     public String createEmployee(Employee employee) {
 
-        employeeRepository.save(employee);
+        employeeService.saveEmployee(employee);
 
         return "redirect:/employees/new";
     }

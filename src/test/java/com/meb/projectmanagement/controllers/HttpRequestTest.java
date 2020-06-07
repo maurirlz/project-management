@@ -1,4 +1,4 @@
-package com.meb.pma.controllers;
+package com.meb.projectmanagement.controllers;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

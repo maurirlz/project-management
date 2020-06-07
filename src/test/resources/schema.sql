@@ -22,8 +22,6 @@ CREATE TABLE IF NOT EXISTS project (
 
 
 CREATE TABLE IF NOT EXISTS project_employee (
-
                                                 project_id BIGINT REFERENCES project,
                                                 employee_id BIGINT REFERENCES employee
-
 );
