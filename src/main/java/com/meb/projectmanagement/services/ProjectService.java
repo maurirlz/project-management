@@ -2,7 +2,6 @@ package com.meb.projectmanagement.services;
 
 import com.meb.projectmanagement.dao.ProjectRepository;
 import com.meb.projectmanagement.dto.ChartData;
-import com.meb.projectmanagement.dto.EmployeeProject;
 import com.meb.projectmanagement.entities.Project;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
