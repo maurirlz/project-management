@@ -1,77 +1,24 @@
-2020-06-07 03:47:12.055  INFO 4659 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 4659 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
-2020-06-07 03:47:12.066 DEBUG 4659 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-06-07 03:47:12.066  INFO 4659 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: test
-2020-06-07 03:47:12.102  INFO 4659 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-07 03:47:12.102  INFO 4659 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-07 03:47:12.819  INFO 4659 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-07 03:47:12.858  INFO 4659 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 2 JPA repository interfaces.
-2020-06-07 03:47:13.325  INFO 4659 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-06-07 03:47:13.382  INFO 4659 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1280 ms
-2020-06-07 03:47:13.564  INFO 4659 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-06-07 03:47:13.613  INFO 4659 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-07 03:47:13.671  INFO 4659 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-07 03:47:13.764  WARN 4659 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-06-07 03:47:14.277  INFO 4659 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-06-07 03:47:14.615  INFO 4659 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-06-07 03:47:14.616  INFO 4659 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-06-07 03:47:14.670  INFO 4659 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-06-07 03:47:14.680  INFO 4659 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 3.005 seconds (JVM running for 3.683)
-2020-06-07 03:47:17.094  INFO 4659 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-07 03:47:17.100  INFO 4659 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-06-07 03:47:17.141 DEBUG 4659 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
-com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
-2020-06-07 03:47:17.141 DEBUG 4659 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
-
-
-2020-06-07 03:47:17.263 DEBUG 4659 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
-com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=0.0.2, projectsList=[], employeesListProjectsCount=[], projectStatusCount=[]}]
-2020-06-07 03:47:17.263 DEBUG 4659 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
-
-
-2020-06-07 03:47:25.022 DEBUG 4659 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
-com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
-2020-06-07 03:47:25.022 DEBUG 4659 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
-
-
-2020-06-07 03:47:25.025 DEBUG 4659 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
-com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=0.0.2, projectsList=[], employeesListProjectsCount=[], projectStatusCount=[]}]
-2020-06-07 03:47:25.026 DEBUG 4659 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
-
-
-2020-06-07 03:47:28.557  INFO 4659 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-06-07 03:47:28.569  INFO 4659 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-06-07 03:47:28.777  WARN 4659 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-2020-06-07 03:55:12.974  INFO 5442 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 5442 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
-2020-06-07 03:55:12.978 DEBUG 5442 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-06-07 03:55:12.978  INFO 5442 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: test
-2020-06-07 03:55:13.016  INFO 5442 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-07 03:55:13.017  INFO 5442 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-07 03:55:13.954  INFO 5442 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-07 03:55:13.995  INFO 5442 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 2 JPA repository interfaces.
-2020-06-07 03:55:14.471  INFO 5442 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-06-07 03:55:14.531  INFO 5442 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1514 ms
-2020-06-07 03:55:14.705  INFO 5442 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-06-07 03:55:14.764  INFO 5442 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-07 03:55:14.828  INFO 5442 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-07 03:55:14.918  WARN 5442 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-06-07 03:55:15.441  INFO 5442 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-06-07 03:55:15.814  INFO 5442 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
-
-
-2020-06-07 03:55:15.883  INFO 5442 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54662133, org.springframework.security.web.context.SecurityContextPersistenceFilter@204f4b9a, org.springframework.security.web.header.HeaderWriterFilter@1e44a665, org.springframework.security.web.csrf.CsrfFilter@6b00fd3a, org.springframework.security.web.authentication.logout.LogoutFilter@68f8a148, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@602e29fb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6d4feaeb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ff7eb35, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a9da3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b1f550c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b743689, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c0cbeaf, org.springframework.security.web.session.SessionManagementFilter@640b1a88, org.springframework.security.web.access.ExceptionTranslationFilter@2195835b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@163fcb1f]
-2020-06-07 03:55:15.934  INFO 5442 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-06-07 03:55:15.935  INFO 5442 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
-2020-06-07 03:55:16.027  INFO 5442 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
-2020-06-07 03:55:16.038  INFO 5442 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 3.444 seconds (JVM running for 4.164)
-2020-06-07 03:55:31.969  INFO 5442 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-06-07 03:55:31.975  INFO 5442 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-06-07 03:55:39.324 DEBUG 5442 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
-com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
-2020-06-07 03:55:39.324 DEBUG 5442 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
-
-
-2020-06-07 03:55:39.451 DEBUG 5442 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
-com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=0.0.2, projectsList=[], employeesListProjectsCount=[], projectStatusCount=[]}]
-2020-06-07 03:55:39.451 DEBUG 5442 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************2020-06-07 04:29:39.744  INFO 5442 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-06-07 04:29:39.903  INFO 5442 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-06-07 04:29:40.323  WARN 5442 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-06-09 12:05:48.911  INFO 7735 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 7735 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-09 12:05:48.925 DEBUG 7735 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-09 12:05:48.925  INFO 7735 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: test
+2020-06-09 12:05:48.980  INFO 7735 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-09 12:05:48.981  INFO 7735 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-09 12:05:50.826  INFO 7735 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-09 12:05:50.901  INFO 7735 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+2020-06-09 12:05:52.064  INFO 7735 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-09 12:05:52.143  INFO 7735 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3162 ms
+2020-06-09 12:05:52.408  INFO 7735 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-06-09 12:05:52.490  INFO 7735 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-09 12:05:52.686  INFO 7735 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-09 12:05:53.042  WARN 7735 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-09 12:05:53.864  INFO 7735 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ec06ebf, org.springframework.security.web.context.SecurityContextPersistenceFilter@150a7a7, org.springframework.security.web.header.HeaderWriterFilter@20f3c62c, org.springframework.security.web.authentication.logout.LogoutFilter@7c8112c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@223350b8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@78e0eeb9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@18b24461, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@184dde3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@318edc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d937e3e, org.springframework.security.web.session.SessionManagementFilter@3a6efa11, org.springframework.security.web.access.ExceptionTranslationFilter@6a718d0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e54121d]
+2020-06-09 12:05:54.558  INFO 7735 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 12:05:55.095  INFO 7735 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-09 12:05:55.096  INFO 7735 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-09 12:05:55.190  INFO 7735 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-09 12:05:55.226  INFO 7735 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 7.305 seconds (JVM running for 9.262)
+2020-06-09 12:05:59.489  INFO 7735 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-09 12:05:59.499  INFO 7735 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-06-09 12:15:20.416  INFO 7735 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-09 12:15:20.441  INFO 7735 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-09 12:15:20.655  WARN 7735 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
