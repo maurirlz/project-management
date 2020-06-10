@@ -28,15 +28,14 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
 </ul>
 
 <h2>Images:</h2>
-![TEST](https://i.imgur.com/qaCos1X.png)
-![alt text](https://i.imgur.com/zeX44QZ.png)
-![alt text](https://i.imgur.com/Du6mSYZ.png)
-![alt text](https://i.imgur.com/B9IhrDZ.png)
-![alt text](https://i.imgur.com/ebWpo4k.png)
-![alt text](https://i.imgur.com/Cp6rnhY.png)
-![alt text](https://i.imgur.com/Lct3bYZ.png)
-![alt text](https://i.imgur.com/Altvnbi.png)
-![alt text](https://i.imgur.com/XFRRrgX.png)
-![alt text](https://i.imgur.com/1aJLO2g.png)
-![alt text](https://i.imgur.com/2ZnMmOY.png)
-![alt text](https://i.imgur.com/kwbvMwK.png)
+<img src="https://i.imgur.com/zeX44QZ.png"/>
+<img src="https://i.imgur.com/Du6mSYZ.png"/> 
+<img src="https://i.imgur.com/B9IhrDZ.png"/> 
+<img src="https://i.imgur.com/ebWpo4k.png"/> 
+<img src="https://i.imgur.com/Cp6rnhY.png"/> 
+<img src="https://i.imgur.com/Lct3bYZ.png"/> 
+<img src="https://i.imgur.com/Altvnbi.png"/> 
+<img src="https://i.imgur.com/XFRRrgX.png"/> 
+<img src="https://i.imgur.com/1aJLO2g.png"/> 
+<img src="https://i.imgur.com/2ZnMmOY.png"/> 
+<img src="https://i.imgur.com/kwbvMwK.png"/>
