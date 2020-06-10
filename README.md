@@ -13,7 +13,7 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
     <li>Roles/Authorities in the page (You can't create projects/employees unless marked as an admin</li>
     <li>Pie chart graph that shows a summarize of all the project's statuses. (Powered by Chart.js)</li>
     <li>CSRF protection</li>
-    <li>PosgreSQL integration</li>
+    <li>PosgreSQL integration with JPA and Hibernate Integration</li>
     <li>Logging (Springframework level = INFO, Unit/Controller level: DEBUG) (thanks to AOP with aspectj)</li>
     <li>Testing profile with H2-Console</li>
 </ul>
