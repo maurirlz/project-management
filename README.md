@@ -37,5 +37,5 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
 <img src="https://i.imgur.com/Altvnbi.png"/> 
 <img src="https://i.imgur.com/XFRRrgX.png"/> 
 <img src="https://i.imgur.com/1aJLO2g.png"/> 
-<img src="https://i.imgur.com/2ZnMmOY.png"/> 
+<img src="https://i.imgur.com/MeCLmtV.png"/> 
 <img src="https://i.imgur.com/kwbvMwK.png"/>
