@@ -17,3 +17,12 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
     <li>Logging (Springframework level = INFO, Unit/Controller level: DEBUG) (thanks to AOP with aspectj)</li>
     <li>Testing profile with H2-Console</li>
 </ul>
+
+<h1>TO DO:</h1>
+<ul>
+    <li>Deployment in either heroku or AWS (want to learn that so bad)</li>
+    <li>Fallback pages</li>
+    <li>Interface to manage authorities with root/superuser</li>
+    <li>CSS and make the page more presentable(maybe implement a preprocessor or tailwind?)</li>
+    <li>React change thymeleaf with react?</li>
+</ul>
