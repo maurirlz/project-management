@@ -9,12 +9,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class SecurityController {
 
-    private final BCryptPasswordEncoder bCryptEncoder;
-    private final UserAccountService accountService;
+    private BCryptPasswordEncoder bCryptEncoder;
+    private UserAccountService accountService;
 
     @Autowired
     public SecurityController(BCryptPasswordEncoder bCryptEncoder, UserAccountService accountService) {
@@ -31,11 +32,11 @@ public class SecurityController {
         return "security/register";
     }
 
-    @PostMapping("/register/save")
+    @PostMapping(value = "/register/save")
     public String saveUser(Model model, UserAccount user) {
 
-        user.setPassword(this.bCryptEncoder.encode(user.getPassword()));
-        this.accountService.save(user);
+        user.setPassword(bCryptEncoder.encode(user.getPassword()));
+        accountService.save(user);
 
         return "redirect:/";
     }
