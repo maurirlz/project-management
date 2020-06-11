@@ -29,7 +29,7 @@ new Chart(document.getElementById("myPieChart"), {
     options: {
         title: {
             display: true,
-            text: 'Project statuses',
+            text: 'Projects status',
         },
     },
 });

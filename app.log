@@ -4760,3 +4760,1006 @@ com.meb.projectmanagement.controllers.HomeController.displayHome() with argument
 2020-06-11 14:56:57.411 DEBUG 12647 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
 
 
+2020-06-11 15:00:19.762  INFO 12647 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-11 15:00:19.764  INFO 12647 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-11 19:36:20.323  INFO 4775 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 4775 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-11 19:36:20.325 DEBUG 4775 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-11 19:36:20.326  INFO 4775 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-11 19:36:20.417  INFO 4775 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-11 19:36:20.418  INFO 4775 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-11 19:36:22.858  INFO 4775 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-11 19:36:22.907  INFO 4775 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 3 JPA repository interfaces.
+2020-06-11 19:36:24.385  INFO 4775 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-11 19:36:24.496  INFO 4775 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4077 ms
+2020-06-11 19:36:24.866  INFO 4775 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-11 19:36:25.139  INFO 4775 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-11 19:36:25.529  WARN 4775 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-11 19:36:25.944  INFO 4775 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ded44a0, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cb57a18, org.springframework.security.web.header.HeaderWriterFilter@74cb2ca6, org.springframework.security.web.csrf.CsrfFilter@1812a7f5, org.springframework.security.web.authentication.logout.LogoutFilter@29a367c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3796bfa6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@31877b42, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17cde07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cf12d48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4eee12dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6935694c, org.springframework.security.web.session.SessionManagementFilter@5d229817, org.springframework.security.web.access.ExceptionTranslationFilter@38cc2893, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74ab47c5]
+2020-06-11 19:36:26.941  INFO 4775 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-11 19:36:27.452  INFO 4775 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-11 19:36:27.490  INFO 4775 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-11 19:36:27.491  INFO 4775 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-11 19:36:27.562  INFO 4775 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-11 19:36:27.585  INFO 4775 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 8.318 seconds (JVM running for 9.785)
+2020-06-11 19:50:23.762  INFO 4775 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-11 19:50:23.768  INFO 4775 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-06-11 19:50:23.811 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:50:23.811 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:24.213 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@4200f408, com.meb.projectmanagement.entities.Project@7269043e, com.meb.projectmanagement.entities.Project@39702f55, com.meb.projectmanagement.entities.Project@240041cf], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5bffff3b], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:50:24.214 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:35.380 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:50:35.381 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:35.397 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@1ffb30bb, com.meb.projectmanagement.entities.Project@10fb389c, com.meb.projectmanagement.entities.Project@67faa8f6, com.meb.projectmanagement.entities.Project@413f0138], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2698e666], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:50:35.397 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:36.404 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 19:50:36.404 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:36.413 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@6738b0c8]}]
+2020-06-11 19:50:36.413 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:41.921 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-11 19:50:41.921 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:50:41.921 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@2299b37b}]
+2020-06-11 19:50:41.921 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:38.598 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 19:52:38.599 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:38.620 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@6ea462a7, com.meb.projectmanagement.entities.Project@655d4ac0, com.meb.projectmanagement.entities.Project@378d0e39, com.meb.projectmanagement.entities.Project@33ab40ab]}]
+2020-06-11 19:52:38.621 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:39.671 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 19:52:39.672 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:39.681 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@39467c35]}]
+2020-06-11 19:52:39.681 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:40.760 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 19:52:40.761 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:40.775 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@119caeed, com.meb.projectmanagement.entities.Project@7a226812, com.meb.projectmanagement.entities.Project@9680e87, com.meb.projectmanagement.entities.Project@60639540]}]
+2020-06-11 19:52:40.777 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:41.336 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 19:52:41.336 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:41.339 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@9bb7ab2]}]
+2020-06-11 19:52:41.340 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:43.016 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:52:43.017 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:52:43.037 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@11c39791, com.meb.projectmanagement.entities.Project@24ab105e, com.meb.projectmanagement.entities.Project@73b419d9, com.meb.projectmanagement.entities.Project@7a014300], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5629d2e2], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:52:43.037 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:53:13.040 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:53:13.040 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:53:13.046 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@49a1838c, com.meb.projectmanagement.entities.Project@493fff6, com.meb.projectmanagement.entities.Project@3f4b7254, com.meb.projectmanagement.entities.Project@45e126a7], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2d25b8c0], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:53:13.047 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:53:19.162 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:53:19.162 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:53:19.168 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@24ba0817, com.meb.projectmanagement.entities.Project@2cf85e6a, com.meb.projectmanagement.entities.Project@39ef2ecc, com.meb.projectmanagement.entities.Project@58d4197a], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7e447cdf], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:53:19.168 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:53:20.282 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:53:20.282 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:53:20.290 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@404f1a91, com.meb.projectmanagement.entities.Project@6fa132a2, com.meb.projectmanagement.entities.Project@1402a232, com.meb.projectmanagement.entities.Project@143700f1], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2d1423e6], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:53:20.290 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:54:31.591 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:54:31.591 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:54:31.601 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@188314d6, com.meb.projectmanagement.entities.Project@310a39ca, com.meb.projectmanagement.entities.Project@60807441, com.meb.projectmanagement.entities.Project@5b125f11], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1c296ab2], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:54:31.601 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:54:32.762 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:54:32.762 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:54:32.770 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@1ea53ddb, com.meb.projectmanagement.entities.Project@126da05d, com.meb.projectmanagement.entities.Project@6724f054, com.meb.projectmanagement.entities.Project@34a120bf], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6bc2e9c4], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:54:32.770 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:55:51.252 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:55:51.253 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:55:51.259 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@56171504, com.meb.projectmanagement.entities.Project@5a377d83, com.meb.projectmanagement.entities.Project@ad9b5e6, com.meb.projectmanagement.entities.Project@dcfcd10], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@41c100c3], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:55:51.259 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:57:40.653 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 19:57:40.653 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 19:57:40.669 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@5e32b4d0, com.meb.projectmanagement.entities.Project@28fb2062, com.meb.projectmanagement.entities.Project@3fea5078, com.meb.projectmanagement.entities.Project@14275ad6], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6a79c82a], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 19:57:40.671 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:10:41.591 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:10:41.591 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:10:41.630 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@225768cc, com.meb.projectmanagement.entities.Project@3dadefac, com.meb.projectmanagement.entities.Project@4a40e957, com.meb.projectmanagement.entities.Project@6f1e1c9c], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7a1258fc], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:10:41.630 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:12:53.612 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:12:53.612 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:12:53.620 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@500dc92b, com.meb.projectmanagement.entities.Project@6073a8ee, com.meb.projectmanagement.entities.Project@44d0931e, com.meb.projectmanagement.entities.Project@e732a09], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@790dced0], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:12:53.621 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:12:54.614 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:12:54.614 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:12:54.635 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@2091fd3a, com.meb.projectmanagement.entities.Project@a74697f, com.meb.projectmanagement.entities.Project@c480a3f, com.meb.projectmanagement.entities.Project@4c5c6bed], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6ba90128], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:12:54.636 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:12:57.649 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:12:57.650 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:12:57.666 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@2b4ea8bf, com.meb.projectmanagement.entities.Project@42584818, com.meb.projectmanagement.entities.Project@43525968, com.meb.projectmanagement.entities.Project@10a6ac28], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@19c72803], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:12:57.667 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:06.190 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:06.190 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:06.196 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@2ed6571f, com.meb.projectmanagement.entities.Project@655cb004, com.meb.projectmanagement.entities.Project@330d91f1, com.meb.projectmanagement.entities.Project@5adf90d4], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@540a5221], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:06.197 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:06.939 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:06.939 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:06.945 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@28a3acac, com.meb.projectmanagement.entities.Project@11f175e3, com.meb.projectmanagement.entities.Project@2b94d68e, com.meb.projectmanagement.entities.Project@b0763ea], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@10beb50c], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:06.945 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:19.537 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:19.537 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:19.541 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@16078a55, com.meb.projectmanagement.entities.Project@43432c77, com.meb.projectmanagement.entities.Project@440a618b, com.meb.projectmanagement.entities.Project@6f690af8], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2818faa], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:19.541 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:20.230 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:20.230 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:20.237 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@6be40fb, com.meb.projectmanagement.entities.Project@7903f392, com.meb.projectmanagement.entities.Project@558573cc, com.meb.projectmanagement.entities.Project@798a2660], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4ec3ae1], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:20.237 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:21.119 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:21.119 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:21.125 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@efe3c9f, com.meb.projectmanagement.entities.Project@4c4e65e, com.meb.projectmanagement.entities.Project@167a73f6, com.meb.projectmanagement.entities.Project@58e34818], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@70c6e017], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:21.125 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:33.927 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:33.928 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:33.942 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@6b0b1550, com.meb.projectmanagement.entities.Project@12cf5e9c, com.meb.projectmanagement.entities.Project@e1c605f, com.meb.projectmanagement.entities.Project@1e8f1f45], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6f7a8f7c], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:33.943 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:34.830 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:13:34.830 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:13:34.845 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@1d8c80fe, com.meb.projectmanagement.entities.Project@1a68f1fe, com.meb.projectmanagement.entities.Project@1f5df0bf, com.meb.projectmanagement.entities.Project@687c8dbe], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@55dcb288], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:13:34.845 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:14:32.502 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:14:32.502 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:14:32.507 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@162285f4, com.meb.projectmanagement.entities.Project@daa66a4, com.meb.projectmanagement.entities.Project@6f8dc031, com.meb.projectmanagement.entities.Project@66dbb86c], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1b10f216], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:14:32.507 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:14:33.162 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:14:33.162 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:14:33.166 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@a758999, com.meb.projectmanagement.entities.Project@7adc56ee, com.meb.projectmanagement.entities.Project@4d3531e8, com.meb.projectmanagement.entities.Project@25f9a1f8], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1b0adcc6], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:14:33.168 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:14:34.233 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:14:34.233 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:14:34.240 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@702375e8, com.meb.projectmanagement.entities.Project@6a3941d2, com.meb.projectmanagement.entities.Project@1e5c02a7, com.meb.projectmanagement.entities.Project@5faf9cc1], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@115c7bbc], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:14:34.240 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:17.587 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:17.587 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:17.594 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@cbd3117, com.meb.projectmanagement.entities.Project@1a159490, com.meb.projectmanagement.entities.Project@5432d52e, com.meb.projectmanagement.entities.Project@5a4194b1], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@267e8d6d], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:17.594 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:18.460 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:18.460 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:18.465 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@b0360e6, com.meb.projectmanagement.entities.Project@62e001b5, com.meb.projectmanagement.entities.Project@1fb8ba87, com.meb.projectmanagement.entities.Project@12055c29], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@637b3f09], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:18.465 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:41.519 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:41.519 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:41.525 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@6f3b4c4c, com.meb.projectmanagement.entities.Project@6469af65, com.meb.projectmanagement.entities.Project@4cbc1a55, com.meb.projectmanagement.entities.Project@7e226c4e], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5355f50b], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:41.525 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:42.647 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:42.647 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:42.660 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@12d41dd8, com.meb.projectmanagement.entities.Project@7bf35cb7, com.meb.projectmanagement.entities.Project@79337b80, com.meb.projectmanagement.entities.Project@50ca7768], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@392f9edd], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:42.660 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:43.326 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:43.326 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:43.331 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@e480d6c, com.meb.projectmanagement.entities.Project@12d9d67d, com.meb.projectmanagement.entities.Project@5a1ade72, com.meb.projectmanagement.entities.Project@51e2dd9a], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5c8f7ab2], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:43.332 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:46.806 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:46.807 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:46.818 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@1c77f367, com.meb.projectmanagement.entities.Project@1bc8b8db, com.meb.projectmanagement.entities.Project@12047352, com.meb.projectmanagement.entities.Project@7f23c508], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4151a5d3], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:46.818 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:54.117 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:54.117 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:54.129 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@508ed2cc, com.meb.projectmanagement.entities.Project@6e46cc18, com.meb.projectmanagement.entities.Project@369e5534, com.meb.projectmanagement.entities.Project@1a520197], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5fa6e8dc], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:54.129 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:54.654 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:54.654 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:54.661 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@3157134a, com.meb.projectmanagement.entities.Project@47c3be76, com.meb.projectmanagement.entities.Project@6dc73a6a, com.meb.projectmanagement.entities.Project@915022d], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@50548b47], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:54.661 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.208 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.208 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.218 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@4d21e564, com.meb.projectmanagement.entities.Project@287ef887, com.meb.projectmanagement.entities.Project@56772ce3, com.meb.projectmanagement.entities.Project@6d908225], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@735e2304], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:55.220 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.309 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.309 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.318 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@5219ecb7, com.meb.projectmanagement.entities.Project@3f9cf295, com.meb.projectmanagement.entities.Project@1dbd4f84, com.meb.projectmanagement.entities.Project@49456f55], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@fc8e0c3], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:55.319 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.441 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.441 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.448 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@451c202b, com.meb.projectmanagement.entities.Project@6d18bd61, com.meb.projectmanagement.entities.Project@6cb8ee12, com.meb.projectmanagement.entities.Project@48635775], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@79ded6c8], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:55.448 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.587 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.587 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.594 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@5128b23a, com.meb.projectmanagement.entities.Project@5fa0d168, com.meb.projectmanagement.entities.Project@639d9cbe, com.meb.projectmanagement.entities.Project@1eaac7b7], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5f7010cf], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:55.635 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.752 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.752 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.769 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@6a567f23, com.meb.projectmanagement.entities.Project@475bf7a8, com.meb.projectmanagement.entities.Project@492ea404, com.meb.projectmanagement.entities.Project@4355fea3], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6989a301], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:55.773 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.918 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.919 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.922 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@30070a5f, com.meb.projectmanagement.entities.Project@574eb6c9, com.meb.projectmanagement.entities.Project@5dd3d1da, com.meb.projectmanagement.entities.Project@391f9391], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@558f52ba], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:55.923 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:55.986 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:15:55.986 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:15:56.000 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@2aa9bc35, com.meb.projectmanagement.entities.Project@3d603ca3, com.meb.projectmanagement.entities.Project@59a2162d, com.meb.projectmanagement.entities.Project@22b9df95], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4bd8c690], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:15:56.000 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:33.002 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:16:33.002 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:33.010 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@14a2c14f, com.meb.projectmanagement.entities.Project@1d824cf8, com.meb.projectmanagement.entities.Project@95767a3, com.meb.projectmanagement.entities.Project@7c2750e8], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7d99a114], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:16:33.010 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:33.763 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:16:33.763 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:33.773 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@3413abd8, com.meb.projectmanagement.entities.Project@4645d12e, com.meb.projectmanagement.entities.Project@39d061b8, com.meb.projectmanagement.entities.Project@58444c9c], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@da0f3a0], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:16:33.774 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:34.671 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:16:34.671 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:34.680 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@93914ab, com.meb.projectmanagement.entities.Project@18789ad4, com.meb.projectmanagement.entities.Project@149dc721, com.meb.projectmanagement.entities.Project@7b1c6f08], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3761cc38], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:16:34.681 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:46.951 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:16:46.951 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:46.963 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@76fde0ad, com.meb.projectmanagement.entities.Project@6ab8889b, com.meb.projectmanagement.entities.Project@3b38e845, com.meb.projectmanagement.entities.Project@743f718e], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@45299d43], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:16:46.964 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:47.969 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:16:47.969 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:16:47.977 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@23a71092, com.meb.projectmanagement.entities.Project@5374fa47, com.meb.projectmanagement.entities.Project@735e3f58, com.meb.projectmanagement.entities.Project@1b642f01], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3fdef2e2], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:16:47.978 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:17:23.646 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:17:23.647 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:17:23.662 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@e815083, com.meb.projectmanagement.entities.Project@3e2bde85, com.meb.projectmanagement.entities.Project@12a08b85, com.meb.projectmanagement.entities.Project@5a4afe71], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6cec260a], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:17:23.663 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:17:24.558 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:17:24.558 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:17:24.566 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@7d894201, com.meb.projectmanagement.entities.Project@233865a6, com.meb.projectmanagement.entities.Project@591ac3d7, com.meb.projectmanagement.entities.Project@6b28e6ed], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6e7f6d46], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:17:24.566 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:19:38.344 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:19:38.345 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:19:38.356 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@1223f63f]}]
+2020-06-11 20:19:38.356 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:19:41.127 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:19:41.128 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:19:41.137 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@2db14f25, com.meb.projectmanagement.entities.Project@2b89d1aa, com.meb.projectmanagement.entities.Project@28c8c469, com.meb.projectmanagement.entities.Project@34228034], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@70367d8b], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:19:41.138 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:19:42.596 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:19:42.596 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:19:42.600 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@7ed8307]}]
+2020-06-11 20:19:42.600 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:43.059 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:23:43.060 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:43.064 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@49abd8a6]}]
+2020-06-11 20:23:43.064 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:44.729 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:23:44.729 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:44.731 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@1a785d25]}]
+2020-06-11 20:23:44.731 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:45.849 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:23:45.849 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:45.853 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@7cfc60d1]}]
+2020-06-11 20:23:45.853 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:46.435 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:23:46.435 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:46.439 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@13f70e81]}]
+2020-06-11 20:23:46.440 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:47.052 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:47.052 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:47.054 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@4626aa71, com.meb.projectmanagement.entities.Project@7ff16168, com.meb.projectmanagement.entities.Project@48916391, com.meb.projectmanagement.entities.Project@4ad77977]}]
+2020-06-11 20:23:47.054 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:48.205 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:48.205 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:48.210 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@5e8f5fd5, com.meb.projectmanagement.entities.Project@4a290581, com.meb.projectmanagement.entities.Project@6f94b1d6, com.meb.projectmanagement.entities.Project@68bcb5ea]}]
+2020-06-11 20:23:48.210 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:49.238 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:49.239 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:49.242 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@7dcb5c44, com.meb.projectmanagement.entities.Project@696e2cd4, com.meb.projectmanagement.entities.Project@1c9ce48f, com.meb.projectmanagement.entities.Project@22117d8c]}]
+2020-06-11 20:23:49.243 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:50.204 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:50.204 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:50.208 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@78c7825b, com.meb.projectmanagement.entities.Project@2b3f8373, com.meb.projectmanagement.entities.Project@25be43f7, com.meb.projectmanagement.entities.Project@4e7c8ca2]}]
+2020-06-11 20:23:50.208 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:51.438 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:51.438 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:51.443 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@6c2602fb, com.meb.projectmanagement.entities.Project@676a6d89, com.meb.projectmanagement.entities.Project@73b04a23, com.meb.projectmanagement.entities.Project@65977a16]}]
+2020-06-11 20:23:51.443 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:52.773 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:52.773 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:52.778 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@5f5da99, com.meb.projectmanagement.entities.Project@49b43ea2, com.meb.projectmanagement.entities.Project@6ad8c78a, com.meb.projectmanagement.entities.Project@6c15cd6d]}]
+2020-06-11 20:23:52.778 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:53.745 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:23:53.746 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:23:53.750 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@5f6d5cb1, com.meb.projectmanagement.entities.Project@28e91163, com.meb.projectmanagement.entities.Project@3ac16219, com.meb.projectmanagement.entities.Project@39b9267]}]
+2020-06-11 20:23:53.750 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:22.250 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:24:22.251 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:22.253 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@5039fa6, com.meb.projectmanagement.entities.Project@68dd344c, com.meb.projectmanagement.entities.Project@35d8ddc2, com.meb.projectmanagement.entities.Project@42efd8b3]}]
+2020-06-11 20:24:22.254 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:34.460 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:24:34.460 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:34.461 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@620a898d, com.meb.projectmanagement.entities.Project@52d46f80, com.meb.projectmanagement.entities.Project@2324cde8, com.meb.projectmanagement.entities.Project@180579bb]}]
+2020-06-11 20:24:34.462 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:35.591 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:24:35.591 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:35.593 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@45baaa5a, com.meb.projectmanagement.entities.Project@18cb86f4, com.meb.projectmanagement.entities.Project@40a50df6, com.meb.projectmanagement.entities.Project@7ced6326]}]
+2020-06-11 20:24:35.593 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:36.456 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:24:36.456 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:36.460 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@6985cdff, com.meb.projectmanagement.entities.Project@5235d610, com.meb.projectmanagement.entities.Project@5a4215f6, com.meb.projectmanagement.entities.Project@530d66ef]}]
+2020-06-11 20:24:36.460 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:38.633 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:24:38.633 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:38.635 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@fd14bf2, com.meb.projectmanagement.entities.Project@4cda2aee, com.meb.projectmanagement.entities.Project@3fba8ae3, com.meb.projectmanagement.entities.Project@6f378af1]}]
+2020-06-11 20:24:38.635 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:40.730 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:24:40.731 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:24:40.740 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@684ee6f6, com.meb.projectmanagement.entities.Project@1dea479, com.meb.projectmanagement.entities.Project@91d4790, com.meb.projectmanagement.entities.Project@1bac52cd], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@70ee3485], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:24:40.740 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:16.438 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:16.438 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:16.440 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@57fc624f, com.meb.projectmanagement.entities.Project@430cb024, com.meb.projectmanagement.entities.Project@3c7ac74d, com.meb.projectmanagement.entities.Project@6854279f]}]
+2020-06-11 20:25:16.440 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:35.451 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:35.451 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:35.453 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@4684560b, com.meb.projectmanagement.entities.Project@4afde214, com.meb.projectmanagement.entities.Project@7454f494, com.meb.projectmanagement.entities.Project@61cfb430]}]
+2020-06-11 20:25:35.453 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:36.852 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:36.852 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:36.854 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@7f7d5e8b, com.meb.projectmanagement.entities.Project@7e6ec0b5, com.meb.projectmanagement.entities.Project@d105cd7, com.meb.projectmanagement.entities.Project@4afe6243]}]
+2020-06-11 20:25:36.854 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:37.443 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:37.443 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:37.444 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@587b7d51, com.meb.projectmanagement.entities.Project@1546d3f9, com.meb.projectmanagement.entities.Project@4e0c94aa, com.meb.projectmanagement.entities.Project@77637df3]}]
+2020-06-11 20:25:37.445 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:37.993 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:37.993 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:37.996 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@5c0f537d, com.meb.projectmanagement.entities.Project@6b3828f8, com.meb.projectmanagement.entities.Project@1a0de4af, com.meb.projectmanagement.entities.Project@36dbc1be]}]
+2020-06-11 20:25:37.996 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.488 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:38.488 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.492 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@5104ff8c, com.meb.projectmanagement.entities.Project@76540ac4, com.meb.projectmanagement.entities.Project@b4b3389, com.meb.projectmanagement.entities.Project@a73c3d7]}]
+2020-06-11 20:25:38.492 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.731 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:38.731 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.732 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@4f8c103e, com.meb.projectmanagement.entities.Project@6cb67bde, com.meb.projectmanagement.entities.Project@5efe079f, com.meb.projectmanagement.entities.Project@baf9219]}]
+2020-06-11 20:25:38.732 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.810 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:38.810 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.811 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@3df4b65b, com.meb.projectmanagement.entities.Project@2bd9a607, com.meb.projectmanagement.entities.Project@2d9b6ade, com.meb.projectmanagement.entities.Project@5fb33f83]}]
+2020-06-11 20:25:38.811 DEBUG 4775 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.939 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:38.940 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:38.942 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@7010d187, com.meb.projectmanagement.entities.Project@267e8c4, com.meb.projectmanagement.entities.Project@739d6508, com.meb.projectmanagement.entities.Project@791710e7]}]
+2020-06-11 20:25:38.942 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:39.108 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:39.108 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:39.110 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@57e06fde, com.meb.projectmanagement.entities.Project@113781e4, com.meb.projectmanagement.entities.Project@285dcb9c, com.meb.projectmanagement.entities.Project@5cc480a8]}]
+2020-06-11 20:25:39.110 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:40.015 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:40.015 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:40.018 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@65395038, com.meb.projectmanagement.entities.Project@80d3d9, com.meb.projectmanagement.entities.Project@5abfd233, com.meb.projectmanagement.entities.Project@2e8b16cd]}]
+2020-06-11 20:25:40.018 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:40.824 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:40.825 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:40.826 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@28b9eaa8, com.meb.projectmanagement.entities.Project@44f491c6, com.meb.projectmanagement.entities.Project@4bf56db3, com.meb.projectmanagement.entities.Project@69685c19]}]
+2020-06-11 20:25:40.827 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:57.580 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:25:57.580 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:57.582 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@4ce02a34, com.meb.projectmanagement.entities.Project@1a638fc2, com.meb.projectmanagement.entities.Project@43f132fc, com.meb.projectmanagement.entities.Project@5a88b6ad]}]
+2020-06-11 20:25:57.582 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:58.841 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:25:58.841 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:58.842 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@357a474e]}]
+2020-06-11 20:25:58.843 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:59.299 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:25:59.299 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:25:59.300 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@43bad58c]}]
+2020-06-11 20:25:59.300 DEBUG 4775 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:01.232 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:26:01.233 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:01.236 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@10d84d6d, com.meb.projectmanagement.entities.Project@64359c21, com.meb.projectmanagement.entities.Project@407f7cb8, com.meb.projectmanagement.entities.Project@c4bb4ca]}]
+2020-06-11 20:26:01.237 DEBUG 4775 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:06.993 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:26:06.994 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:06.997 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@52318e2c]}]
+2020-06-11 20:26:06.997 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:08.964 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:26:08.964 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:08.977 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@5338ed51, com.meb.projectmanagement.entities.Project@68b21bf9, com.meb.projectmanagement.entities.Project@6f64c195, com.meb.projectmanagement.entities.Project@19ff4e1b], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7d1401e6], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:26:08.978 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:57.833 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:26:57.833 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:26:57.843 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@479430cc, com.meb.projectmanagement.entities.Project@1177363a, com.meb.projectmanagement.entities.Project@5c45c97a, com.meb.projectmanagement.entities.Project@5e99b365], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1ed71777], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:26:57.844 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:27:59.072 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:27:59.072 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:27:59.082 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@4f0c72c1, com.meb.projectmanagement.entities.Project@7c792b75, com.meb.projectmanagement.entities.Project@4c07cd84, com.meb.projectmanagement.entities.Project@3ffb5165], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4994671b], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:27:59.082 DEBUG 4775 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:03.791 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:28:03.791 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:03.795 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@a8ba819, com.meb.projectmanagement.entities.Project@70b4bfd5, com.meb.projectmanagement.entities.Project@1fb86790, com.meb.projectmanagement.entities.Project@665fbec3]}]
+2020-06-11 20:28:03.795 DEBUG 4775 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:04.554 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:28:04.554 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:04.560 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@66eaec8d]}]
+2020-06-11 20:28:04.560 DEBUG 4775 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:05.836 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-11 20:28:05.836 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:05.841 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@2186c8b8, com.meb.projectmanagement.entities.Project@6c0aa5a5, com.meb.projectmanagement.entities.Project@303461, com.meb.projectmanagement.entities.Project@69576a38]}]
+2020-06-11 20:28:05.842 DEBUG 4775 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:14.459 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:28:14.460 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:28:14.463 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@367f127]}]
+2020-06-11 20:28:14.463 DEBUG 4775 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:29:14.747 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-11 20:29:14.747 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:29:14.749 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@28c533c6]}]
+2020-06-11 20:29:14.749 DEBUG 4775 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:29:17.303 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-11 20:29:17.303 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-11 20:29:17.313 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@71af9dc7, com.meb.projectmanagement.entities.Project@6acc3568, com.meb.projectmanagement.entities.Project@194e312f, com.meb.projectmanagement.entities.Project@e4f466d], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@41de21ae], projectStatusCount=[{"label":"INPROGRESS","value":2},{"label":"COMPLETED","value":1},{"label":"NOTSTARTED","value":1}]}]
+2020-06-11 20:29:17.313 DEBUG 4775 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+

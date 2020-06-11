@@ -38,6 +38,10 @@ table {
     border-spacing: 0;
 }
 
+.table-bordered {
+    border: 0.3rem #C5C6C7 wave;
+}
+
 body {
     background-color: #1F2833;
     font-size: 0.9em;
@@ -49,8 +53,16 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: #45A29E
+}
+
 .tableHeader {
     color: #66FCF1;
+    border: #C5C6C7;
+    background-color: #1F2833;
+    font-weight: bold;
+    text-align: center;
 }
 
 .dbData {
@@ -81,6 +93,7 @@ a {
     font-style: italic;
     font-weight: bold;
     text-align: left;
+    padding: 1em 0em 1em 1em;
 }
 
 .container {
