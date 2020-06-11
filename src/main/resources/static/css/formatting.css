@@ -1,3 +1,76 @@
+.navbar-custom .navbar-brand,
+.navbar-custom, .navbar .navbar-expand-lg {
+    color: #C5C6C7;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #0B0C10;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #0B0C10;
+}
+
+.table-bordered {
+    border: 0.3rem #0B0C10 wave;
+}
+
+.tableHeader {
+    color: #66FCF1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dbData {
+    color: #C5C6C7;
+}
+
+.navbar-custom {
+    background-color: #1F2833;
+}
+
+.header3 {
+    font-size: 2.2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0.5em;
+    color: #4ed7d2;
+}
+
+.header4 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    padding: 1em 0em 1em 1em;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #1F2833;
+    font-size: 0.9em;
+    color: #C5C6C7;
+}
+
+a {
+    color: #C5C6C7;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #45A29E
+}
 tml, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,76 +105,9 @@ ol, ul {
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
-
-.table-bordered {
-    border: 0.3rem #C5C6C7 wave;
-}
-
-body {
-    background-color: #1F2833;
-    font-size: 0.9em;
-    color: #C5C6C7;
-}
-
-a {
-    color: #C5C6C7;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #45A29E
-}
-
-.tableHeader {
-    color: #66FCF1;
-    border: #C5C6C7;
-    background-color: #1F2833;
-    font-weight: bold;
-    text-align: center;
-}
-
-.dbData {
-    color: #C5C6C7;
-}
-
-.navbar-custom {
-    background-color: #1F2833;
-}
-
-.navbar-custom .navbar-brand,
-.navbar-custom, .navbar .navbar-expand-lg {
-    color: #C5C6C7;
-}
-
-.header3 {
-    font-size: 2.2em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    padding: 0.5em;
-    color: #4ed7d2;
-}
-
-.header4 {
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: bold;
-    text-align: left;
-    padding: 1em 0em 1em 1em;
-}
-
-.container {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
 }
