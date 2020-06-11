@@ -18,8 +18,8 @@
 
 </head>
 <body>
-	<nav th:fragment = "navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-	  <a class="navbar-brand" href="#"> Project IO</a>
+	<nav th:fragment = "navbar" class="navbar navbar-expand-lg navbar-custom">
+	  <a class="navbar-brand" href="#"> Project Management Application</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -39,7 +39,7 @@
 	  </div>
 	</nav>
 	<div class="container" th:fragment="projectsTable">
-		<h3>Projects Directory</h3>
+		<h3 class="header3">Projects Directory</h3>
 		<hr>
 
 		<!--  Add New Project Button -->
@@ -55,7 +55,7 @@
 			</tr>
 			</thead>
 			<tbody>
-			<tr th:each="aProject : ${projectsList}">
+			<tr class="dbData" th:each="aProject : ${projectsList}">
 				<td th:text="${aProject.name}"></td>
 				<td th:text="${aProject.stage}"></td>
 			</tr>
@@ -65,7 +65,7 @@
 	</div>
 
 	<div class="container" th:fragment="employeesTable">
-		<h3>Employee Directory</h3>
+		<h3 class="header3">Employee Directory</h3>
 		<hr>
 
 		<!--  Add New Employee Button -->
@@ -84,7 +84,7 @@
 			</tr>
 			</thead>
 			<tbody>
-			<tr th:each="aEmployee : ${employeesList}">
+			<tr class="dbData" th:each="aEmployee : ${employeesList}">
 				<td th:text="${aEmployee.firstName}"></td>
 				<td th:text="${aEmployee.lastName}"></td>
 				<td th:text="${aEmployee.emailAddress}"></td>

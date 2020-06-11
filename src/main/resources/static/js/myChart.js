@@ -23,6 +23,7 @@ new Chart(document.getElementById("myPieChart"), {
             label: 'My First dataset',
             backgroundColor: ['#3e95cd', '#8e5ea2', '#3cba9f'],
             data: numericData,
+            borderColor: "#1F2833"
         }],
     },
     options: {

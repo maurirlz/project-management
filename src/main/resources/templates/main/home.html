@@ -3,13 +3,13 @@
 
 <head th:replace="layouts :: header">
     <title> Project IO Homepage </title>
-
+    <link rel="stylesheet" href="css/formatting.css">
 </head>
 <body>
 <nav th:replace="layouts :: navbar"></nav>
 
 <div class="container">
-    <h3> Main Dashboard </h3>
+    <h3 class="header3"> Main Dashboard </h3>
     <a th:text="${versionNumber}"></a>
     <h4>Current Projects</h4>
     <hr>
@@ -17,13 +17,13 @@
         <div class="col-md-6">
             <table class="table table-bordered table-striped">
                 <thead class="thead-dark">
-                <tr>
-                    <th> Project Name </th>
+                <tr class="tableHeader">
+                    <th > Project Name </th>
                     <th> Project Stage </th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr th:each="aProject : ${projectsList}">
+                <tr class="dbData" th:each="aProject : ${projectsList}">
                     <td th:text="${aProject.name}"></td>
                     <td th:text="${aProject.stage}"></td>
                 </tr>
@@ -56,7 +56,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr th:each=" employeeProjectCount : ${employeesListProjectsCount}">
+                <tr class="dbData" th:each=" employeeProjectCount : ${employeesListProjectsCount}">
                     <td th:text="${employeeProjectCount.firstName}"></td>
                     <td th:text="${employeeProjectCount.lastName}"></td>
                     <td th:text="${employeeProjectCount.projectCount}"></td>
