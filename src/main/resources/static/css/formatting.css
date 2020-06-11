@@ -33,10 +33,6 @@ blockquote, q {
     quotes: none;
 }
 blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -77,5 +73,22 @@ a {
     font-weight: bolder;
     text-align: center;
     padding: 0.5em;
-    color: #66FCF1;
+    color: #4ed7d2;
+}
+
+.header4 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
 }
