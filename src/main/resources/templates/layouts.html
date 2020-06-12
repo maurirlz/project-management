@@ -56,8 +56,8 @@
 			</thead>
 			<tbody>
 			<tr class="dbData" th:each="aProject : ${projectsList}">
-				<td th:text="${aProject.name}"></td>
-				<td th:text="${aProject.stage}"></td>
+				<td id="status" th:text="${aProject.name}"></td>
+				<td id="status" th:text="${aProject.stage}"></td>
 			</tr>
 			</tbody>
 
@@ -87,10 +87,9 @@
 			<tr class="dbData" th:each="aEmployee : ${employeesList}">
 				<td th:text="${aEmployee.firstName}"></td>
 				<td th:text="${aEmployee.lastName}"></td>
-				<td th:text="${aEmployee.emailAddress}"></td>
+				<td id="status" th:text="${aEmployee.emailAddress}"></td>
 			</tr>
 			</tbody>
-
 		</table>
 	</div>
 </body>

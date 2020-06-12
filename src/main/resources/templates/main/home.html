@@ -23,7 +23,7 @@
                 <tbody>
                 <tr class="dbData" th:each="aProject : ${projectsList}">
                     <td th:text="${aProject.name}"></td>
-                    <td th:text="${aProject.stage}"></td>
+                    <td id="status" th:text="${aProject.stage}"></td>
                 </tr>
                 </tbody>
             </table>
@@ -43,7 +43,6 @@
     <h4 class="header4"> Current Employees </h4>
     <div class="row">
         <div class="col-md-6">
-
             <table class="table table-bordered table-striped">
                 <thead class="thead-custom">
                 <tr class="tableHeader">
@@ -56,14 +55,13 @@
                 <tr class="dbData" th:each=" employeeProjectCount : ${employeesListProjectsCount}">
                     <td th:text="${employeeProjectCount.firstName}"></td>
                     <td th:text="${employeeProjectCount.lastName}"></td>
-                    <td th:text="${employeeProjectCount.projectCount}"></td>
+                    <td id="status" th:text="${employeeProjectCount.projectCount}"></td>
                 </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-
 </body>
 
 <script type="text/javascript" th:src="@{js/myChart.js}"></script>
