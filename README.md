@@ -27,15 +27,4 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
 </ul>
 
 <h2>Images:</h2>
-<img src="https://imgur.com/PZFLUhS"/>
-<img src="https://imgur.com/eRqQo5p"/> 
-<img src="https://imgur.com/N7s702s"/> 
-<img src="https://imgur.com/or5viJK"/> 
-<img src="https://imgur.com/YZrPO17"/> 
-<img src="https://imgur.com/hu7GH6X"/> 
-<img src="https://imgur.com/HWE5wVj"/> 
-<img src="https://imgur.com/qnoyrIV"/> 
-<img src="https://imgur.com/sULKOun"/> 
-<img src="https://imgur.com/vPeHHT6"/> 
-<img src="https://imgur.com/UeWxeTZ"/>
-<img src="https://imgur.com/oLQalXx"/>
+https://imgur.com/a/qy5sbFv
