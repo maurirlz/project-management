@@ -1,6 +1,5 @@
 package com.meb.projectmanagement.controllers;
 
-import com.meb.projectmanagement.dao.UserAccountRepository;
 import com.meb.projectmanagement.entities.UserAccount;
 import com.meb.projectmanagement.services.UserAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +8,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class SecurityController {
