@@ -16,26 +16,26 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
     <li>PosgreSQL with JPA and Hibernate Integration</li>
     <li>Logging (Springframework level = INFO, Unit/Controller level: DEBUG) (thanks to AOP with aspectj)</li>
     <li>Testing profile with H2-Console</li>
+    <li>Learned to deploy the page with AWS - EC2!</li>
 </ul>
 
 <h1>TO DO:</h1>
 <ul>
-    <li>Deployment in either heroku or AWS (want to learn that so bad)</li>
-    <li>Fallback pages</li>
     <li>Interface to manage authorities with root/superuser</li>
-    <li>CSS and make the page more presentable(maybe implement a preprocessor or tailwind?)</li>
+    <li>  for /register, /login and /logout</li>
     <li>React change thymeleaf with react?</li>
 </ul>
 
 <h2>Images:</h2>
-<img src="https://i.imgur.com/zeX44QZ.png"/>
-<img src="https://i.imgur.com/Du6mSYZ.png"/> 
-<img src="https://i.imgur.com/B9IhrDZ.png"/> 
-<img src="https://i.imgur.com/ebWpo4k.png"/> 
-<img src="https://i.imgur.com/Cp6rnhY.png"/> 
-<img src="https://i.imgur.com/Lct3bYZ.png"/> 
-<img src="https://i.imgur.com/Altvnbi.png"/> 
-<img src="https://i.imgur.com/XFRRrgX.png"/> 
-<img src="https://i.imgur.com/1aJLO2g.png"/> 
-<img src="https://i.imgur.com/MeCLmtV.png"/> 
-<img src="https://i.imgur.com/kwbvMwK.png"/>
+<img src="https://imgur.com/PZFLUhS"/>
+<img src="https://imgur.com/eRqQo5p"/> 
+<img src="https://imgur.com/N7s702s"/> 
+<img src="https://imgur.com/or5viJK"/> 
+<img src="https://imgur.com/YZrPO17"/> 
+<img src="https://imgur.com/hu7GH6X"/> 
+<img src="https://imgur.com/HWE5wVj"/> 
+<img src="https://imgur.com/qnoyrIV"/> 
+<img src="https://imgur.com/sULKOun"/> 
+<img src="https://imgur.com/vPeHHT6"/> 
+<img src="https://imgur.com/UeWxeTZ"/>
+<img src="https://imgur.com/oLQalXx"/>
