@@ -22,7 +22,7 @@
     border: 1px solid #0B0C10;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:visited {
     color: #C5C6C7;
     text-align: center;
     font-weight: bolder;

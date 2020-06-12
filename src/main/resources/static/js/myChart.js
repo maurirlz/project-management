@@ -15,6 +15,8 @@ jsonData.forEach(jsonData => {
     labelData.push(jsonData.label);
 });
 
+const button = document.getElementsByClassName('btn-primary');
+
 new Chart(document.getElementById("myPieChart"), {
     type: 'pie',
     data: {
