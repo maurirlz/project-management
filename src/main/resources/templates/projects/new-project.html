@@ -4,31 +4,32 @@
 
 <head th:replace="layouts :: header">
     <title> Create A New Project </title>
+    <link href="css/formatting.css" rel="stylesheet">
 </head>
 
 
 <body>
 <nav th:replace="layouts :: navbar"></nav>
-<div class="container">
-    <form th:action="@{/projects/save}" th:object="${project}" method="POST">
+<div class="formContainer">
+    <form class="containerForm" th:action="@{/projects/save}" th:object="${project}" method="POST">
 
-        <input type="text" th:field="*{name}" placeholder="Project Name">
+        <input class="input-box" type="text" th:field="*{name}" placeholder="Project Name">
 
-        <select th:field="*{stage}">
-            <option th:value="NOTSTARTED">Not Started</option>
-            <option th:value="INPROGRESS">In Progress</option>
-            <option th:value="COMPLETED">Completed</option>
+        <select class="optionselect" th:field="*{stage}">
+            <option class="optionselect" th:value="NOTSTARTED">Not Started</option>
+            <option class="optionselect" th:value="INPROGRESS">In Progress</option>
+            <option class="optionselect" th:value="COMPLETED">Completed</option>
         </select>
 
         <textarea type="text" placeholder="Enter Project Description" th:field="*{description}"></textarea>
 
-        <select th:field="*{employees}" multiple="multiple">
-            <option th:each="employee : ${allEmployees}"
+        <select class="optionselect" th:field="*{employees}" multiple="multiple">
+            <option class="optionselect" th:each="employee : ${allEmployees}"
             th:value="${employee.employeeId}"
             th:text="${employee.firstName}">
             </option>
         </select>
-        <button type="submit">Create Project.</button>
+        <button class="btn-primary" type="submit">Create Project.</button>
     </form>
 </div>
 </body>

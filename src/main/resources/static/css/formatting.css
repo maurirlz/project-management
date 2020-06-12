@@ -7,10 +7,34 @@
     color: #C5C6C7;
 }
 
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: border-box;
+    align-self: center;
+    align-content: space-between;
+}
+
+input.input-box, textarea {
+    background-color: #C5C6C7;
+}
+
 .btn-primary:hover {
     background-color: #0B0C10;
     border-color: #66FCF1;
     color: #45A29E;
+}
+
+.optionselect {
+    background-color: #C5C6C7;
 }
 
 .table thead th {
@@ -91,6 +115,11 @@ a {
 a:hover {
     color: #45A29E
 }
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
 tml, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -127,7 +156,13 @@ blockquote, q {
 }
 
 blockquote:before, blockquote:after,
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+form {
+    width: 50%;
+    height: 50%;
 }
