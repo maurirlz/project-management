@@ -1,0 +1,42 @@
+Cheat Sheet
+# download Images
+docker pull postgres
+
+# how to build an image from the directory where Dockerfile exists
+docker image build -t project-management-application .
+
+# list Images
+docker images
+
+# list containers running
+docker container ls
+
+# container is a running instance of an image
+# how to run a container
+docker container run ubuntu
+
+# Running container below -d for daemon, -p for port forwarding
+docker run [-d] [-p 5432:5432] postgres:tag
+
+# see logs of a running container
+docker container logs <container id>
+# list the containers that are running?
+docker container ls
+
+# list all stopped and running containers
+docker container ls -a
+
+# delete container
+docker container rm <Container Id> or <name>
+
+# How to stop a container?
+docker stop <ID>
+
+# remove docker image.. This requires first removing all stopped containers of this image
+docker rmi image <image name>
+
+# Create an image from a container that was previously run.
+docker container commit -a "Mauricio Benitez Ezequiel mauribenitez95@gamil.com" <ID of Container> <image name>
+
+# clear away all stopped containers
+docker container prune
