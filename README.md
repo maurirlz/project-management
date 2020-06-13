@@ -27,5 +27,8 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
     <li>React change thymeleaf with react?</li>
 </ul>
 
-<h2>Images:</h2>
+<h2>Images: </h2>
 https://imgur.com/a/qy5sbFv
+
+<h2>Docker images (with AWS RDS part): </h2>
+https://imgur.com/a/SUvjTx2
