@@ -17,6 +17,7 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
     <li>Logging (Springframework level = INFO, Unit/Controller level: DEBUG) (thanks to AOP with aspectj)</li>
     <li>Testing profile with H2-Console</li>
     <li>Learned to deploy the page with AWS - EC2!</li>
+    <li>Learned Docker with containers and images, and also how to have a cloud PostgreSQL DB in the cloud thanks to Amazon     RDS! </li>
 </ul>
 
 <h1>TO DO:</h1>
