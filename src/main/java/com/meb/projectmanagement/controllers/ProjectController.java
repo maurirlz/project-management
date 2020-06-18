@@ -54,7 +54,7 @@ public class ProjectController {
     public String createProject(Project project) {
         // handles saving to the database.
 
-        projectService.save(project);
+        projectService.saveProject(project);
 
         // use a redirect to prevent duplicate submissions
         return "redirect:/projects";

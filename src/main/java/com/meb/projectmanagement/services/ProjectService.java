@@ -4,9 +4,12 @@ import com.meb.projectmanagement.dao.ProjectRepository;
 import com.meb.projectmanagement.dto.ChartData;
 import com.meb.projectmanagement.entities.Project;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ProjectService {
@@ -18,7 +21,7 @@ public class ProjectService {
         this.projectRepository = projectRepository;
     }
 
-    public Project save(Project project) {
+    public Project saveProject(Project project) {
 
         return projectRepository.save(project);
     }
@@ -31,4 +34,17 @@ public class ProjectService {
     public List<ChartData> getProjectStatuses() {
         return projectRepository.getProjectStatuses();
     }
+
+    public Project getProjectById(Long id) throws ResponseStatusException {
+
+        Optional<Project> projectOptional = projectRepository.findById(id);
+
+        return projectOptional.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "404. Couldn't found Project by id: " + id));
+    }
+
+    public void deleteProjectById(Long id) {
+
+        projectRepository.deleteById(id);
+    }
+
 }

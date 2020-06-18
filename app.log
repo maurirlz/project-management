@@ -1277,3 +1277,293 @@ Caused by: java.lang.IllegalStateException: getOutputStream() has already been c
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
 	... 35 common frames omitted
 
+2020-06-18 03:20:58.273  INFO 15444 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:20:58.277  INFO 15444 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:21:17.528  INFO 16318 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 16318 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-18 03:21:17.537 DEBUG 16318 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-18 03:21:17.537  INFO 16318 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-18 03:21:17.587  INFO 16318 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-18 03:21:17.587  INFO 16318 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-18 03:21:18.565  INFO 16318 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-18 03:21:18.611  INFO 16318 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 3 JPA repository interfaces.
+2020-06-18 03:21:19.108  INFO 16318 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-18 03:21:19.175  INFO 16318 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1587 ms
+2020-06-18 03:21:19.273  INFO 16318 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-18 03:21:19.565  INFO 16318 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:21:20.393  WARN 16318 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-18 03:21:20.566  INFO 16318 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33a78f11, org.springframework.security.web.context.SecurityContextPersistenceFilter@333ab2c0, org.springframework.security.web.header.HeaderWriterFilter@3d5b8e70, org.springframework.security.web.csrf.CsrfFilter@28db8221, org.springframework.security.web.authentication.logout.LogoutFilter@7c63406c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b45806f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@653fe0f7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38b2f2a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71cb203b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6da4d931, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@402ec295, org.springframework.security.web.session.SessionManagementFilter@22b17b47, org.springframework.security.web.access.ExceptionTranslationFilter@2abb3bce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f021864]
+2020-06-18 03:21:20.969  INFO 16318 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:21:21.361  INFO 16318 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-18 03:21:21.393  INFO 16318 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-18 03:21:21.397  INFO 16318 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-18 03:21:21.473  INFO 16318 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-18 03:21:21.489  INFO 16318 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 4.417 seconds (JVM running for 5.187)
+2020-06-18 03:21:28.182  INFO 16318 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-18 03:21:28.188  INFO 16318 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-18 03:21:28.221 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-18 03:21:28.221 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:21:28.517 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@f96b735, com.meb.projectmanagement.entities.Project@2d33796c, com.meb.projectmanagement.entities.Project@72bbcb34, com.meb.projectmanagement.entities.Project@4074410a], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@94f3287, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2f1292d3, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@186f7e3f, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6844acbf, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1c709682, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@274f1bd5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@44b21785, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@95e7af8, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@110239d7], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-18 03:21:28.517 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:21:29.353 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@6409d476]]
+2020-06-18 03:21:29.356 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:21:29.361 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@6409d476]]
+2020-06-18 03:21:29.361 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:24:16.885 DEBUG 16318 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-18 03:24:16.885 DEBUG 16318 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:24:16.896 DEBUG 16318 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@315dc0d3, com.meb.projectmanagement.entities.Project@2c88ebd1, com.meb.projectmanagement.entities.Project@714e2b1, com.meb.projectmanagement.entities.Project@6a1713ee], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@44235b49, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@333fda06, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@28280678, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5b9763f7, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@53092df, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@48128795, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@20615329, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@40890409, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@412ec0ad], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-18 03:24:16.896 DEBUG 16318 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:24:28.870  WARN 16318 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-06-18 03:24:37.655  WARN 16318 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-06-18 03:32:30.960 DEBUG 16318 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@2822d422]]
+2020-06-18 03:32:30.986 DEBUG 16318 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:30.986 DEBUG 16318 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@2822d422]]
+2020-06-18 03:32:30.986 DEBUG 16318 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:49.640 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@3489e7fd]]
+2020-06-18 03:32:49.640 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:49.640 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@3489e7fd]]
+2020-06-18 03:32:49.640 DEBUG 16318 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:51.506 DEBUG 16318 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@3002f9f2]]
+2020-06-18 03:32:51.506 DEBUG 16318 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:51.506 DEBUG 16318 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@3002f9f2]]
+2020-06-18 03:32:51.506 DEBUG 16318 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:55.524 DEBUG 16318 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@6a89da0f]]
+2020-06-18 03:32:55.524 DEBUG 16318 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:55.524 DEBUG 16318 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@6a89da0f]]
+2020-06-18 03:32:55.524 DEBUG 16318 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:57.191 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@1f80414c]]
+2020-06-18 03:32:57.191 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:57.191 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@1f80414c]]
+2020-06-18 03:32:57.191 DEBUG 16318 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:58.241 DEBUG 16318 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@296ecb44]]
+2020-06-18 03:32:58.241 DEBUG 16318 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:58.241 DEBUG 16318 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@296ecb44]]
+2020-06-18 03:32:58.241 DEBUG 16318 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:59.075 DEBUG 16318 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@55f734b1]]
+2020-06-18 03:32:59.076 DEBUG 16318 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:32:59.076 DEBUG 16318 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.AppErrorController.handleError() with arguments[s] = [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionRequestWrapper@55f734b1]]
+2020-06-18 03:32:59.076 DEBUG 16318 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:33:12.030  INFO 16318 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:33:12.032  INFO 16318 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:33:19.644  INFO 18183 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 18183 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-18 03:33:19.647 DEBUG 18183 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-18 03:33:19.647  INFO 18183 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-18 03:33:19.701  INFO 18183 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-18 03:33:19.702  INFO 18183 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-18 03:33:20.835  INFO 18183 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-18 03:33:20.875  INFO 18183 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 3 JPA repository interfaces.
+2020-06-18 03:33:21.415  INFO 18183 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-18 03:33:21.484  INFO 18183 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1782 ms
+2020-06-18 03:33:21.586  INFO 18183 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-18 03:33:21.686  INFO 18183 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:33:21.804  WARN 18183 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-18 03:33:22.150  INFO 18183 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1911bd1, org.springframework.security.web.context.SecurityContextPersistenceFilter@58aaee0c, org.springframework.security.web.header.HeaderWriterFilter@4d3152fa, org.springframework.security.web.csrf.CsrfFilter@3bfac65d, org.springframework.security.web.authentication.logout.LogoutFilter@25986473, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7067300f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@17867639, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46ec72c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c52c12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@795e11dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c744c14, org.springframework.security.web.session.SessionManagementFilter@20fdccb, org.springframework.security.web.access.ExceptionTranslationFilter@2ca25006, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fb2337f]
+2020-06-18 03:33:22.617  INFO 18183 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:33:23.430  INFO 18183 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-18 03:33:23.614  INFO 18183 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-18 03:33:23.617  INFO 18183 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-18 03:33:23.797  INFO 18183 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-18 03:33:23.813  INFO 18183 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 4.494 seconds (JVM running for 5.177)
+2020-06-18 03:33:28.144  INFO 18183 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-18 03:33:28.151  INFO 18183 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-06-18 03:34:32.866  INFO 18183 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:34:32.868  INFO 18183 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:38:42.991  INFO 18855 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 18855 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-18 03:38:43.008 DEBUG 18855 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-18 03:38:43.009  INFO 18855 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-18 03:38:43.125  INFO 18855 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-18 03:38:43.126  INFO 18855 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-18 03:38:43.915  INFO 18855 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-18 03:38:43.962  INFO 18855 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 3 JPA repository interfaces.
+2020-06-18 03:38:44.573  INFO 18855 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-18 03:38:44.689  INFO 18855 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1563 ms
+2020-06-18 03:38:44.856  INFO 18855 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-18 03:38:45.023  INFO 18855 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:38:45.223  WARN 18855 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-18 03:38:45.528  INFO 18855 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1df7a918, org.springframework.security.web.context.SecurityContextPersistenceFilter@29941382, org.springframework.security.web.header.HeaderWriterFilter@7748d0c, org.springframework.security.web.csrf.CsrfFilter@46fc9bc1, org.springframework.security.web.authentication.logout.LogoutFilter@734343aa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fed072d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@64586234, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@32b17227, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55baeac6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e40c922, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@760139ec, org.springframework.security.web.session.SessionManagementFilter@2cd22ed9, org.springframework.security.web.access.ExceptionTranslationFilter@cd63c66, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43f9f49c]
+2020-06-18 03:38:45.980  INFO 18855 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:38:46.581  INFO 18855 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-18 03:38:46.625  INFO 18855 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-18 03:38:46.627  INFO 18855 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-18 03:38:46.693  INFO 18855 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-18 03:38:46.708  INFO 18855 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 4.241 seconds (JVM running for 5.19)
+2020-06-18 03:38:46.924  INFO 18855 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-18 03:38:46.930  INFO 18855 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-06-18 03:39:46.271  WARN 18855 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-06-18 03:41:59.921  INFO 18855 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:41:59.922  INFO 18855 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:42:05.158  INFO 19397 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 19397 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-18 03:42:05.161 DEBUG 19397 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-18 03:42:05.161  INFO 19397 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-18 03:42:05.200  INFO 19397 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-18 03:42:05.200  INFO 19397 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-18 03:42:06.080  INFO 19397 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-18 03:42:06.126  INFO 19397 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 3 JPA repository interfaces.
+2020-06-18 03:42:06.621  INFO 19397 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-18 03:42:06.691  INFO 19397 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1491 ms
+2020-06-18 03:42:06.784  INFO 19397 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-18 03:42:06.899  INFO 19397 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:42:07.043  WARN 19397 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-18 03:42:07.189  INFO 19397 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f5c72d, org.springframework.security.web.context.SecurityContextPersistenceFilter@f5c18b9, org.springframework.security.web.header.HeaderWriterFilter@15801919, org.springframework.security.web.authentication.logout.LogoutFilter@25046c04, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c1ed615, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@cdbdcdc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ba5f809, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21473573, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70e344, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@adbca01, org.springframework.security.web.session.SessionManagementFilter@1d64befa, org.springframework.security.web.access.ExceptionTranslationFilter@567a230d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@463eddc6]
+2020-06-18 03:42:07.534  INFO 19397 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:42:07.863  INFO 19397 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-18 03:42:07.890  INFO 19397 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-18 03:42:07.892  INFO 19397 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-18 03:42:07.950  INFO 19397 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-18 03:42:07.959  INFO 19397 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 3.38 seconds (JVM running for 4.308)
+2020-06-18 03:42:13.164  INFO 19397 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-18 03:42:13.172  INFO 19397 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-06-18 03:44:11.228 DEBUG 19397 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-18 03:44:11.228 DEBUG 19397 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:44:11.336 DEBUG 19397 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@10fec68b, com.meb.projectmanagement.entities.Project@738b1f9, com.meb.projectmanagement.entities.Project@5aaed2e0, com.meb.projectmanagement.entities.Project@114b7f68], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4291bc1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@46d10f24, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3938792c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@75838ad9, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@40605fa9, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@e06d0ae, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@748d295b, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1db1a051, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5f6e2959, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@675501ba], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-18 03:44:11.336 DEBUG 19397 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:17.104  INFO 19397 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:51:17.106  INFO 19397 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:51:23.010  INFO 20781 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 20781 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-18 03:51:23.015 DEBUG 20781 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-18 03:51:23.015  INFO 20781 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-18 03:51:23.067  INFO 20781 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-18 03:51:23.068  INFO 20781 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-18 03:51:24.246  INFO 20781 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-18 03:51:24.288  INFO 20781 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 3 JPA repository interfaces.
+2020-06-18 03:51:24.775  INFO 20781 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-18 03:51:24.840  INFO 20781 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1772 ms
+2020-06-18 03:51:24.932  INFO 20781 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-18 03:51:25.035  INFO 20781 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-18 03:51:25.139  WARN 20781 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-18 03:51:25.294  INFO 20781 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59449477, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f3ab99e, org.springframework.security.web.header.HeaderWriterFilter@624fd892, org.springframework.security.web.authentication.logout.LogoutFilter@1a23a522, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c0ed9a5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@301d65df, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@77036148, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@367c5375, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@229574, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e768303, org.springframework.security.web.session.SessionManagementFilter@6e00ab3a, org.springframework.security.web.access.ExceptionTranslationFilter@43f492c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@841057e]
+2020-06-18 03:51:25.677  INFO 20781 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 03:51:26.260  INFO 20781 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-18 03:51:26.326  INFO 20781 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-18 03:51:26.328  INFO 20781 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-18 03:51:26.442  INFO 20781 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-18 03:51:26.455  INFO 20781 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 3.807 seconds (JVM running for 4.467)
+2020-06-18 03:51:30.971  INFO 20781 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-18 03:51:30.983  INFO 20781 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-06-18 03:51:45.716 DEBUG 20781 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-18 03:51:45.717 DEBUG 20781 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:45.825 DEBUG 20781 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@381f8316, com.meb.projectmanagement.entities.Project@472e9e70, com.meb.projectmanagement.entities.Project@791edd30, com.meb.projectmanagement.entities.Project@1ff9071c], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@d930908, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7723c5cc, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@82e0b1c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1de09858, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@28ce4d9, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6be84ce1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@13e6dc6b, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@adda417, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6f1223b9, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@46b4e5fe], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-18 03:51:45.825 DEBUG 20781 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:55.132 DEBUG 20781 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-18 03:51:55.133 DEBUG 20781 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:55.152 DEBUG 20781 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@3a2d716e, com.meb.projectmanagement.entities.Employee@29d0ef04, com.meb.projectmanagement.entities.Employee@610b332a, com.meb.projectmanagement.entities.Employee@1d490930, com.meb.projectmanagement.entities.Employee@4c3ebdf6, com.meb.projectmanagement.entities.Employee@62b8d3ba, com.meb.projectmanagement.entities.Employee@5a122ea4, com.meb.projectmanagement.entities.Employee@fc7ac5f, com.meb.projectmanagement.entities.Employee@36af615c, com.meb.projectmanagement.entities.Employee@122e4130]}]
+2020-06-18 03:51:55.152 DEBUG 20781 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:57.456 DEBUG 20781 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-18 03:51:57.461 DEBUG 20781 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:57.475 DEBUG 20781 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@37405e0f, com.meb.projectmanagement.entities.Project@3d917259, com.meb.projectmanagement.entities.Project@4ad98f30, com.meb.projectmanagement.entities.Project@59ff4a46]}]
+2020-06-18 03:51:57.476 DEBUG 20781 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:58.776 DEBUG 20781 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-18 03:51:58.776 DEBUG 20781 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:51:58.781 DEBUG 20781 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@56761dd7, com.meb.projectmanagement.entities.Employee@30c231b8, com.meb.projectmanagement.entities.Employee@7d808e7, com.meb.projectmanagement.entities.Employee@2636b655, com.meb.projectmanagement.entities.Employee@35d3689c, com.meb.projectmanagement.entities.Employee@65e8b4a6, com.meb.projectmanagement.entities.Employee@22b017cc, com.meb.projectmanagement.entities.Employee@312799d1, com.meb.projectmanagement.entities.Employee@1f9e90e1, com.meb.projectmanagement.entities.Employee@3ff34a30]}]
+2020-06-18 03:51:58.782 DEBUG 20781 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:52:00.569 DEBUG 20781 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-18 03:52:00.570 DEBUG 20781 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:52:00.579 DEBUG 20781 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@635a31dc, com.meb.projectmanagement.entities.Employee@621bcd3e, com.meb.projectmanagement.entities.Employee@6dd741e9, com.meb.projectmanagement.entities.Employee@659b6c92, com.meb.projectmanagement.entities.Employee@577d752c, com.meb.projectmanagement.entities.Employee@6b3320c0, com.meb.projectmanagement.entities.Employee@3cbcec46, com.meb.projectmanagement.entities.Employee@27df8bf, com.meb.projectmanagement.entities.Employee@3e9529c9, com.meb.projectmanagement.entities.Employee@4cd22bfb]}]
+2020-06-18 03:52:00.580 DEBUG 20781 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:52:01.138 DEBUG 20781 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-18 03:52:01.139 DEBUG 20781 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 03:52:01.158 DEBUG 20781 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@3e283032, com.meb.projectmanagement.entities.Project@48810a4b, com.meb.projectmanagement.entities.Project@2acab407, com.meb.projectmanagement.entities.Project@3ce155b8], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4efdc74c, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@70b22a77, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@32b48a61, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@799cf0d3, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@597b8f0b, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@38fbe7c1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2e0a953d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@300ef247, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@3508309a, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@52aa0c15], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-18 03:52:01.158 DEBUG 20781 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-18 04:00:50.372  INFO 20781 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-18 04:00:50.374  INFO 20781 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
