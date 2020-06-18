@@ -1,6 +1,5 @@
 package com.meb.projectmanagement.controllers;
 
-import com.meb.projectmanagement.dao.EmployeeRepository;
 import com.meb.projectmanagement.entities.Employee;
 import com.meb.projectmanagement.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;

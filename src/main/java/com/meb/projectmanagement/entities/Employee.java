@@ -1,5 +1,7 @@
 package com.meb.projectmanagement.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -20,6 +22,8 @@ public class Employee {
     @JoinTable(name = "project_employee",
             joinColumns = @JoinColumn(name = "employee_id"),
             inverseJoinColumns = @JoinColumn(name = "project_id"))
+
+    @JsonIgnore
     private List<Project> assignedProject;
 
     public Employee() {
