@@ -16,4 +16,6 @@ public interface EmployeeRepository extends CrudRepository<Employee, Long> {
             " FROM employee e LEFT JOIN project_employee pe ON pe.employee_id = e.employee_id " +
             " GROUP BY e.first_name, e.last_name ORDER BY 3 DESC")
     List<EmployeeProject> getEmployeeProjects();
+
+    Employee findByEmailAddress(String s);
 }

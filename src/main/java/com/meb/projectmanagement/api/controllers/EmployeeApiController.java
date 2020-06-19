@@ -7,6 +7,8 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/app-api/employees")
 public class EmployeeApiController {
@@ -32,21 +34,21 @@ public class EmployeeApiController {
 
     @PostMapping(consumes = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
-    public Employee createEmployee(@RequestBody Employee employee) {
+    public Employee createEmployee(@RequestBody @Valid Employee employee) {
 
         return employeeService.saveEmployee(employee);
     }
 
     @PutMapping(consumes = "application/json")
     @ResponseStatus(HttpStatus.OK)
-    public Employee updateEmployee(@RequestBody Employee employee) {
+    public Employee updateEmployee(@RequestBody @Valid Employee employee) {
 
         return employeeService.saveEmployee(employee);
     }
 
     @PatchMapping(consumes = "application/json", path = "{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public Employee patchEmployee(@PathVariable("id") Long id, @RequestBody Employee newEmployee) {
+    public Employee patchEmployee(@PathVariable("id") Long id, @Valid @RequestBody Employee newEmployee) {
 
         Employee oldEmployee = employeeService.findById(id);
         String newEmployeeFirstName = newEmployee.getFirstName();

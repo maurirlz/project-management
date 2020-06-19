@@ -3,6 +3,8 @@ package com.meb.projectmanagement.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,10 +15,17 @@ public class Project {
     @GeneratedValue (strategy=GenerationType.SEQUENCE, generator="project_seq")
     @SequenceGenerator(name = "project_seq", sequenceName = "project_seq", allocationSize = 1)
     private long projectId;
+
+    @NotNull
+    @Size(min = 2, max = 30)
     private String name;
 
+    @NotNull
+    @Size(min = 9, max = 13)
     private String stage; // NOTSTARTED, COMPLETED, INPROGRESS
 
+    @NotNull
+    @Size(min = 10, max = 250)
     private String description;
 
     @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH}, fetch = FetchType.LAZY)

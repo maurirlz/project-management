@@ -4,7 +4,9 @@ import com.meb.projectmanagement.dao.EmployeeRepository;
 import com.meb.projectmanagement.dto.EmployeeProject;
 import com.meb.projectmanagement.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.Optional;
@@ -38,7 +40,7 @@ public class EmployeeService {
 
         Optional<Employee> employeeOrNull = employeeRepository.findById(id);
 
-        return employeeOrNull.orElse(null);
+        return employeeOrNull.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "404. Couldn't found Employee by id: " + id));
     }
 
     public void deleteEmployeeById(Long id) {

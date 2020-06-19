@@ -8,6 +8,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/app-api/projects")
 public class ProjectApiController {
@@ -47,7 +49,7 @@ public class ProjectApiController {
 
     @PutMapping(path = "id")
     @ResponseStatus(HttpStatus.OK)
-    public Project updateWholeProject(@RequestBody Project newProject) {
+    public Project updateWholeProject(@RequestBody @Valid Project newProject) {
 
         return projectService.saveProject(newProject);
     }

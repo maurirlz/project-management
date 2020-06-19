@@ -1,8 +1,12 @@
 package com.meb.projectmanagement.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.meb.projectmanagement.validators.UniqueValue;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -13,8 +17,17 @@ public class Employee {
     @SequenceGenerator(name = "employee_seq", sequenceName = "employee_seq", allocationSize = 1)
     private long employeeId;
 
+    @NotNull
+    @Size(min = 2, max = 30)
     private String firstName;
+
+    @NotNull
+    @Size(min = 1, max = 30)
     private String lastName;
+
+    @NotNull
+    @UniqueValue
+    @Email
     private String emailAddress;
 
     @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH},
@@ -22,7 +35,6 @@ public class Employee {
     @JoinTable(name = "project_employee",
             joinColumns = @JoinColumn(name = "employee_id"),
             inverseJoinColumns = @JoinColumn(name = "project_id"))
-
     @JsonIgnore
     private List<Project> assignedProject;
 
