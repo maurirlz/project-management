@@ -4,6 +4,8 @@ import com.meb.projectmanagement.dao.EmployeeRepository;
 import com.meb.projectmanagement.dto.EmployeeProject;
 import com.meb.projectmanagement.entities.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
@@ -31,6 +33,13 @@ public class EmployeeService {
         return employeeRepository.findAll();
     }
 
+    public Iterable<Employee> getAllEmployeesPaginated(int page, int size) {
+
+        Pageable pageable = PageRequest.of(page, size);
+
+        return employeeRepository.findAll(pageable);
+    }
+
     public List<EmployeeProject> getEmployeesProjects() {
 
         return employeeRepository.getEmployeeProjects();
@@ -47,4 +56,5 @@ public class EmployeeService {
 
         employeeRepository.deleteById(id);
     }
+
 }

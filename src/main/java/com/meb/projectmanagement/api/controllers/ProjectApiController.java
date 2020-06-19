@@ -27,6 +27,13 @@ public class ProjectApiController {
         return projectService.getAllProjects();
     }
 
+    @GetMapping(params = {"page", "size"})
+    @ResponseStatus(HttpStatus.OK)
+    public Iterable<Project> getPaginatedProjects(@RequestParam("page") int page, @RequestParam("size") int size) {
+
+        return projectService.findPaginatedProjects(page, size);
+    }
+
     @GetMapping("/{id}")
     public Project getProjectById(@PathVariable("id") Long id) {
 

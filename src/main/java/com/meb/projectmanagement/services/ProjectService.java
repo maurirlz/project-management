@@ -4,6 +4,8 @@ import com.meb.projectmanagement.dao.ProjectRepository;
 import com.meb.projectmanagement.dto.ChartData;
 import com.meb.projectmanagement.entities.Project;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
@@ -47,4 +49,9 @@ public class ProjectService {
         projectRepository.deleteById(id);
     }
 
+    public Iterable<Project> findPaginatedProjects(int page, int size) {
+
+        Pageable pageable = PageRequest.of(page, size);
+        return projectRepository.findAll(pageable);
+    }
 }

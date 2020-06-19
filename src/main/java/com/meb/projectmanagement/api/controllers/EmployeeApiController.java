@@ -83,4 +83,11 @@ public class EmployeeApiController {
 
         }
     }
+
+    @GetMapping(params = {"page", "size"})
+    @ResponseStatus(HttpStatus.OK)
+    public Iterable<Employee> FindPaginatedEmployees(@RequestParam("page") int page, @RequestParam("size") int size) {
+
+        return employeeService.getAllEmployeesPaginated(page, size);
+    }
 }
