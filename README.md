@@ -18,6 +18,7 @@ configuration's profiles when also utilizing my knowledge of html/css/js to impl
     <li>Testing profile with H2-Console</li>
     <li>Learned to deploy the page with AWS - EC2!</li>
     <li>Learned Docker with containers and images, and also how to have a cloud PostgreSQL DB in the cloud thanks to Amazon     RDS! </li>
+    <li>Implement PUT and DELETE requests on employees ! </li>
 </ul>
 
 <h1>TO DO:</h1>
