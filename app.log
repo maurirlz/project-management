@@ -1805,3 +1805,797 @@ com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with
 2020-06-20 01:59:09.871 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
 
 
+2020-06-20 02:07:48.544 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:07:48.545 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:48.558 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@171d825f, com.meb.projectmanagement.entities.Employee@30cdf07, com.meb.projectmanagement.entities.Employee@140eba63, com.meb.projectmanagement.entities.Employee@26636527, com.meb.projectmanagement.entities.Employee@5d1714ce, com.meb.projectmanagement.entities.Employee@38860c8c, com.meb.projectmanagement.entities.Employee@593a745d, com.meb.projectmanagement.entities.Employee@644d6800, com.meb.projectmanagement.entities.Employee@119b123]}]
+2020-06-20 02:07:48.559 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:50.014 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-20 02:07:50.015 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:50.036 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@6e7f85ee, com.meb.projectmanagement.entities.Project@54a11d19, com.meb.projectmanagement.entities.Project@2e25319e, com.meb.projectmanagement.entities.Project@58c41d99], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@26de6ede, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6047e09e, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@e24ac1f, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5be08ac1, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@e1da7fd, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@5181e5b0, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@7a6effcb, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@2507d4c5, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4646bdd7], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-20 02:07:50.036 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:51.271 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:07:51.271 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:51.279 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@5988b1ff, com.meb.projectmanagement.entities.Employee@255a56e2, com.meb.projectmanagement.entities.Employee@4e17b26b, com.meb.projectmanagement.entities.Employee@10cd714f, com.meb.projectmanagement.entities.Employee@c562de0, com.meb.projectmanagement.entities.Employee@7b4c87ce, com.meb.projectmanagement.entities.Employee@83bf626, com.meb.projectmanagement.entities.Employee@7387b967, com.meb.projectmanagement.entities.Employee@4e03b3da]}]
+2020-06-20 02:07:51.280 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:52.164 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:07:52.165 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:52.166 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@7cb97b56}]
+2020-06-20 02:07:52.166 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:53.109 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@4db54230]
+2020-06-20 02:07:53.110 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:53.204 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@4db54230]
+2020-06-20 02:07:53.204 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:53.220 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:07:53.222 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:53.223 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@391af41d}]
+2020-06-20 02:07:53.223 DEBUG 17234 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:54.594 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@71976043]
+2020-06-20 02:07:54.594 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:54.620 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@71976043]
+2020-06-20 02:07:54.620 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:54.630 DEBUG 17234 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:07:54.630 DEBUG 17234 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:54.630 DEBUG 17234 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@71440f13}]
+2020-06-20 02:07:54.630 DEBUG 17234 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:56.600 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@ae814a2]
+2020-06-20 02:07:56.600 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:56.620 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@ae814a2]
+2020-06-20 02:07:56.620 DEBUG 17234 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:56.627 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:07:56.628 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:56.628 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@3d1fb28d}]
+2020-06-20 02:07:56.628 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.292 DEBUG 17234 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@4e72f04d]
+2020-06-20 02:07:57.292 DEBUG 17234 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.303 DEBUG 17234 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@4e72f04d]
+2020-06-20 02:07:57.304 DEBUG 17234 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.310 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:07:57.311 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.311 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@50b366d8}]
+2020-06-20 02:07:57.311 DEBUG 17234 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.977 DEBUG 17234 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@7f267d33]
+2020-06-20 02:07:57.977 DEBUG 17234 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.986 DEBUG 17234 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@7f267d33]
+2020-06-20 02:07:57.987 DEBUG 17234 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.993 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:07:57.993 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:57.993 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@63bb776c}]
+2020-06-20 02:07:57.993 DEBUG 17234 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:58.842 DEBUG 17234 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:07:58.842 DEBUG 17234 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:07:58.852 DEBUG 17234 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@6a935ef0, com.meb.projectmanagement.entities.Employee@41e99ff8, com.meb.projectmanagement.entities.Employee@4db76f0b, com.meb.projectmanagement.entities.Employee@7cf71d05, com.meb.projectmanagement.entities.Employee@c63b8b5, com.meb.projectmanagement.entities.Employee@1f8f09e, com.meb.projectmanagement.entities.Employee@7741189d, com.meb.projectmanagement.entities.Employee@331a2c45, com.meb.projectmanagement.entities.Employee@22ad8c83, com.meb.projectmanagement.entities.Employee@6497e448, com.meb.projectmanagement.entities.Employee@1bed8db7, com.meb.projectmanagement.entities.Employee@79f7f28b, com.meb.projectmanagement.entities.Employee@37f0a0a2, com.meb.projectmanagement.entities.Employee@6c1ea7b0]}]
+2020-06-20 02:07:58.853 DEBUG 17234 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:02.043 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [12]
+2020-06-20 02:08:02.043 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:02.086 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [12]
+2020-06-20 02:08:02.086 DEBUG 17234 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:02.093 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:02.093 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:02.097 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@75cd848b, com.meb.projectmanagement.entities.Employee@6005c6e9, com.meb.projectmanagement.entities.Employee@3710938, com.meb.projectmanagement.entities.Employee@4b2b1667, com.meb.projectmanagement.entities.Employee@52db3a55, com.meb.projectmanagement.entities.Employee@1c279c69, com.meb.projectmanagement.entities.Employee@17946e1c, com.meb.projectmanagement.entities.Employee@49fcaa7, com.meb.projectmanagement.entities.Employee@f9d51f3, com.meb.projectmanagement.entities.Employee@2f7940bd, com.meb.projectmanagement.entities.Employee@1ba92fc0, com.meb.projectmanagement.entities.Employee@619914e0, com.meb.projectmanagement.entities.Employee@46ed3e9]}]
+2020-06-20 02:08:02.097 DEBUG 17234 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:05.550  INFO 17234 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 02:08:05.552  INFO 17234 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 02:08:12.545  INFO 18308 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 18308 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-20 02:08:12.547 DEBUG 18308 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-20 02:08:12.548  INFO 18308 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-20 02:08:12.637  INFO 18308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 02:08:12.638  INFO 18308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 02:08:13.614  INFO 18308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-20 02:08:13.661  INFO 18308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 3 JPA repository interfaces.
+2020-06-20 02:08:14.244  INFO 18308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 02:08:14.297  INFO 18308 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1659 ms
+2020-06-20 02:08:14.421  INFO 18308 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-20 02:08:14.592  INFO 18308 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 02:08:14.757  WARN 18308 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 02:08:15.279  INFO 18308 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 02:08:15.707  INFO 18308 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7adba5f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ffaa3c2, org.springframework.security.web.header.HeaderWriterFilter@4766a78, org.springframework.security.web.authentication.logout.LogoutFilter@690a1075, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f657fd3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@620c1003, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26de2d15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55296762, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ddbfb6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@371b07c0, org.springframework.security.web.session.SessionManagementFilter@d8ef58c, org.springframework.security.web.access.ExceptionTranslationFilter@6eb99e8d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ba1213c]
+2020-06-20 02:08:16.194  INFO 18308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 02:08:16.223  INFO 18308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 02:08:16.225  INFO 18308 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-20 02:08:16.313  INFO 18308 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-20 02:08:16.323  INFO 18308 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 4.187 seconds (JVM running for 4.833)
+2020-06-20 02:08:16.682  INFO 18308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-20 02:08:16.694  INFO 18308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-20 02:08:16.722 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:16.722 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:16.820 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@3fb187e9, com.meb.projectmanagement.entities.Employee@3a9f5a3b, com.meb.projectmanagement.entities.Employee@7c110dab, com.meb.projectmanagement.entities.Employee@1b301ec2, com.meb.projectmanagement.entities.Employee@62566a42, com.meb.projectmanagement.entities.Employee@22d8bab1, com.meb.projectmanagement.entities.Employee@56509714, com.meb.projectmanagement.entities.Employee@4d8d4512, com.meb.projectmanagement.entities.Employee@1cd8229b, com.meb.projectmanagement.entities.Employee@7b320e83, com.meb.projectmanagement.entities.Employee@2988dec6, com.meb.projectmanagement.entities.Employee@e8aab30, com.meb.projectmanagement.entities.Employee@531b8c80]}]
+2020-06-20 02:08:16.821 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:19.929 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [13]
+2020-06-20 02:08:19.929 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:19.968 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [13]
+2020-06-20 02:08:19.969 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:19.978 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:19.979 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:19.982 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@46aa5b76, com.meb.projectmanagement.entities.Employee@631b2b48, com.meb.projectmanagement.entities.Employee@134bea73, com.meb.projectmanagement.entities.Employee@49cb86d8, com.meb.projectmanagement.entities.Employee@5dae157c, com.meb.projectmanagement.entities.Employee@675534ea, com.meb.projectmanagement.entities.Employee@2b814201, com.meb.projectmanagement.entities.Employee@3e69fcef, com.meb.projectmanagement.entities.Employee@13410bab, com.meb.projectmanagement.entities.Employee@5dfd9f4d, com.meb.projectmanagement.entities.Employee@7c4d4fb9, com.meb.projectmanagement.entities.Employee@db24a5b]}]
+2020-06-20 02:08:19.982 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:22.130 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [14]
+2020-06-20 02:08:22.131 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:22.162 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [14]
+2020-06-20 02:08:22.162 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:22.180 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:22.181 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:22.197 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@13937ea2, com.meb.projectmanagement.entities.Employee@3b511e94, com.meb.projectmanagement.entities.Employee@6b394c62, com.meb.projectmanagement.entities.Employee@6a3e8da8, com.meb.projectmanagement.entities.Employee@62509823, com.meb.projectmanagement.entities.Employee@51c69f43, com.meb.projectmanagement.entities.Employee@703d8345, com.meb.projectmanagement.entities.Employee@6e701327, com.meb.projectmanagement.entities.Employee@8870f4a, com.meb.projectmanagement.entities.Employee@6d5eb59e, com.meb.projectmanagement.entities.Employee@71e524db]}]
+2020-06-20 02:08:22.199 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:24.106 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [15]
+2020-06-20 02:08:24.107 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:24.160 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [15]
+2020-06-20 02:08:24.161 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:24.180 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:24.182 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:24.190 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@8854b43, com.meb.projectmanagement.entities.Employee@232eb4e, com.meb.projectmanagement.entities.Employee@4e961e74, com.meb.projectmanagement.entities.Employee@317cee57, com.meb.projectmanagement.entities.Employee@13816468, com.meb.projectmanagement.entities.Employee@67c95cd, com.meb.projectmanagement.entities.Employee@78675ec8, com.meb.projectmanagement.entities.Employee@2ebf19c5, com.meb.projectmanagement.entities.Employee@36059a5e, com.meb.projectmanagement.entities.Employee@54b5b3ae]}]
+2020-06-20 02:08:24.190 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:26.002 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [16]
+2020-06-20 02:08:26.003 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:26.026 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [16]
+2020-06-20 02:08:26.027 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:26.032 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:26.032 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:26.035 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@4564575d, com.meb.projectmanagement.entities.Employee@47e376f6, com.meb.projectmanagement.entities.Employee@5e1e9fbc, com.meb.projectmanagement.entities.Employee@e5d4a, com.meb.projectmanagement.entities.Employee@67373ca9, com.meb.projectmanagement.entities.Employee@3bbfb27f, com.meb.projectmanagement.entities.Employee@11f629cb, com.meb.projectmanagement.entities.Employee@6360d2b2, com.meb.projectmanagement.entities.Employee@3dec6803]}]
+2020-06-20 02:08:26.035 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:27.319 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:08:27.320 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:27.321 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@4294044d}]
+2020-06-20 02:08:27.321 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:28.448 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@280f2524]
+2020-06-20 02:08:28.449 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:28.476 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@280f2524]
+2020-06-20 02:08:28.476 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:28.482 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:08:28.482 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:28.482 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@7d1a4225}]
+2020-06-20 02:08:28.482 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:30.183 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:30.184 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:30.196 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@24900c7b, com.meb.projectmanagement.entities.Employee@9964af, com.meb.projectmanagement.entities.Employee@12ff0a8c, com.meb.projectmanagement.entities.Employee@51036a85, com.meb.projectmanagement.entities.Employee@7554470a, com.meb.projectmanagement.entities.Employee@3e23f913, com.meb.projectmanagement.entities.Employee@54623f31, com.meb.projectmanagement.entities.Employee@1e7f307a, com.meb.projectmanagement.entities.Employee@494458a8, com.meb.projectmanagement.entities.Employee@688ecbf2]}]
+2020-06-20 02:08:30.196 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:32.832 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [17]
+2020-06-20 02:08:32.832 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:32.851 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [17]
+2020-06-20 02:08:32.851 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:32.858 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:08:32.858 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:08:32.860 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@6973aa4d, com.meb.projectmanagement.entities.Employee@57c6d77d, com.meb.projectmanagement.entities.Employee@5ce70f62, com.meb.projectmanagement.entities.Employee@6baff006, com.meb.projectmanagement.entities.Employee@1ffa1efc, com.meb.projectmanagement.entities.Employee@7ee65f41, com.meb.projectmanagement.entities.Employee@1a9ed3e0, com.meb.projectmanagement.entities.Employee@ea52f75, com.meb.projectmanagement.entities.Employee@4167cda3]}]
+2020-06-20 02:08:32.861 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:15.391 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:15.391 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:15.404 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@33d00929, com.meb.projectmanagement.entities.Employee@788b57f4, com.meb.projectmanagement.entities.Employee@5ae06f98, com.meb.projectmanagement.entities.Employee@66d0ff6c, com.meb.projectmanagement.entities.Employee@55fa3bde, com.meb.projectmanagement.entities.Employee@77ecf262, com.meb.projectmanagement.entities.Employee@2e29cfa8, com.meb.projectmanagement.entities.Employee@4f637e9e, com.meb.projectmanagement.entities.Employee@4bc39867]}]
+2020-06-20 02:17:15.405 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:16.535 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:17:16.536 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:16.537 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@1d35bd6a}]
+2020-06-20 02:17:16.537 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:17.392 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@7fea7c20]
+2020-06-20 02:17:17.392 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:17.609 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@7fea7c20]
+2020-06-20 02:17:17.609 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:17.622 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:17:17.623 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:17.623 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@5101e188}]
+2020-06-20 02:17:17.623 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:18.769 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@13d14df5]
+2020-06-20 02:17:18.770 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:18.783 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@13d14df5]
+2020-06-20 02:17:18.784 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:18.796 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:17:18.796 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:18.796 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@464059b6}]
+2020-06-20 02:17:18.796 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:19.818 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@2f1215a]
+2020-06-20 02:17:19.819 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:19.842 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@2f1215a]
+2020-06-20 02:17:19.842 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:19.848 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:17:19.848 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:19.849 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@58c87ee2}]
+2020-06-20 02:17:19.849 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.409 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@1751317d]
+2020-06-20 02:17:20.410 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.433 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@1751317d]
+2020-06-20 02:17:20.434 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.447 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:17:20.447 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.447 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@4afbfddb}]
+2020-06-20 02:17:20.447 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.882 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@7d344c13]
+2020-06-20 02:17:20.883 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.925 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@7d344c13]
+2020-06-20 02:17:20.925 DEBUG 18308 --- [http-nio-8080-exec-2] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.939 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:17:20.939 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:20.939 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@699114a3}]
+2020-06-20 02:17:20.940 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:22.036 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:22.037 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:22.048 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@3fc80d5, com.meb.projectmanagement.entities.Employee@24e85d72, com.meb.projectmanagement.entities.Employee@4d116f30, com.meb.projectmanagement.entities.Employee@5770a460, com.meb.projectmanagement.entities.Employee@30ed6c73, com.meb.projectmanagement.entities.Employee@5608b4d1, com.meb.projectmanagement.entities.Employee@102639cf, com.meb.projectmanagement.entities.Employee@4227cc0f, com.meb.projectmanagement.entities.Employee@1972becc, com.meb.projectmanagement.entities.Employee@acf3f0f, com.meb.projectmanagement.entities.Employee@2b0687d8, com.meb.projectmanagement.entities.Employee@573d6103, com.meb.projectmanagement.entities.Employee@5bb521f6, com.meb.projectmanagement.entities.Employee@28714ac8]}]
+2020-06-20 02:17:22.049 DEBUG 18308 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:24.995 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [18]
+2020-06-20 02:17:24.996 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:25.016 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [18]
+2020-06-20 02:17:25.017 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:25.029 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:25.029 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:25.032 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@1c813eb, com.meb.projectmanagement.entities.Employee@753a2b36, com.meb.projectmanagement.entities.Employee@37536613, com.meb.projectmanagement.entities.Employee@1960e0a9, com.meb.projectmanagement.entities.Employee@5876ff25, com.meb.projectmanagement.entities.Employee@7cb10c86, com.meb.projectmanagement.entities.Employee@50fe8efd, com.meb.projectmanagement.entities.Employee@4e8559e3, com.meb.projectmanagement.entities.Employee@21e518c1, com.meb.projectmanagement.entities.Employee@5544f547, com.meb.projectmanagement.entities.Employee@71e91074, com.meb.projectmanagement.entities.Employee@154715eb, com.meb.projectmanagement.entities.Employee@1c6d3492]}]
+2020-06-20 02:17:25.032 DEBUG 18308 --- [http-nio-8080-exec-8] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:27.139 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [19]
+2020-06-20 02:17:27.140 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:27.166 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [19]
+2020-06-20 02:17:27.167 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:27.183 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:27.183 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:27.190 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@3995110, com.meb.projectmanagement.entities.Employee@1258a3e9, com.meb.projectmanagement.entities.Employee@7f88868a, com.meb.projectmanagement.entities.Employee@4d757492, com.meb.projectmanagement.entities.Employee@4adbdfd, com.meb.projectmanagement.entities.Employee@53bd016a, com.meb.projectmanagement.entities.Employee@68ba7141, com.meb.projectmanagement.entities.Employee@e8d4920, com.meb.projectmanagement.entities.Employee@67264f59, com.meb.projectmanagement.entities.Employee@5caba486, com.meb.projectmanagement.entities.Employee@6720e62b, com.meb.projectmanagement.entities.Employee@30077a6]}]
+2020-06-20 02:17:27.192 DEBUG 18308 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:29.424 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [20]
+2020-06-20 02:17:29.425 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:29.450 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [20]
+2020-06-20 02:17:29.450 DEBUG 18308 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:29.463 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:29.464 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:29.470 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@2d4e8d8d, com.meb.projectmanagement.entities.Employee@78ba0767, com.meb.projectmanagement.entities.Employee@289a9ca7, com.meb.projectmanagement.entities.Employee@7c8484db, com.meb.projectmanagement.entities.Employee@25ff5c23, com.meb.projectmanagement.entities.Employee@d56f6c4, com.meb.projectmanagement.entities.Employee@71d53c6d, com.meb.projectmanagement.entities.Employee@29afccd0, com.meb.projectmanagement.entities.Employee@76ee8382, com.meb.projectmanagement.entities.Employee@4c34ab4d, com.meb.projectmanagement.entities.Employee@14dad0f2]}]
+2020-06-20 02:17:29.470 DEBUG 18308 --- [http-nio-8080-exec-4] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:31.246 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [21]
+2020-06-20 02:17:31.247 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:31.325 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [21]
+2020-06-20 02:17:31.325 DEBUG 18308 --- [http-nio-8080-exec-6] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:31.340 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:31.340 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:31.347 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@5e4b2448, com.meb.projectmanagement.entities.Employee@4c25b1f2, com.meb.projectmanagement.entities.Employee@705447e8, com.meb.projectmanagement.entities.Employee@3f738a4c, com.meb.projectmanagement.entities.Employee@381d808e, com.meb.projectmanagement.entities.Employee@59560c5e, com.meb.projectmanagement.entities.Employee@bef7b9b, com.meb.projectmanagement.entities.Employee@286db140, com.meb.projectmanagement.entities.Employee@7ca04d33, com.meb.projectmanagement.entities.Employee@15fd8a05]}]
+2020-06-20 02:17:31.348 DEBUG 18308 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:33.604 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [22]
+2020-06-20 02:17:33.604 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:33.633 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.delete() with arguments[s] = [22]
+2020-06-20 02:17:33.633 DEBUG 18308 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:33.644 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:17:33.644 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:33.647 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@63883102, com.meb.projectmanagement.entities.Employee@2d7f60e, com.meb.projectmanagement.entities.Employee@78f5ce0b, com.meb.projectmanagement.entities.Employee@672044a9, com.meb.projectmanagement.entities.Employee@4502696e, com.meb.projectmanagement.entities.Employee@78d88046, com.meb.projectmanagement.entities.Employee@2e0b8cc0, com.meb.projectmanagement.entities.Employee@4b6b90a4, com.meb.projectmanagement.entities.Employee@1d74d9be]}]
+2020-06-20 02:17:33.647 DEBUG 18308 --- [http-nio-8080-exec-10] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:17:36.153  INFO 18308 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 02:17:36.155  INFO 18308 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-20 02:18:11.214  INFO 19774 --- [restartedMain] c.m.p.ProjectManagementApplication       : Starting ProjectManagementApplication on maaush with PID 19774 (/home/maaush/git/project-management/target/classes started by maaush in /home/maaush/git/project-management)
+2020-06-20 02:18:11.216 DEBUG 19774 --- [restartedMain] c.m.p.ProjectManagementApplication       : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-20 02:18:11.216  INFO 19774 --- [restartedMain] c.m.p.ProjectManagementApplication       : The following profiles are active: dev
+2020-06-20 02:18:11.320  INFO 19774 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-20 02:18:11.321  INFO 19774 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-20 02:18:12.324  INFO 19774 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-20 02:18:12.367  INFO 19774 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 3 JPA repository interfaces.
+2020-06-20 02:18:12.914  INFO 19774 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-20 02:18:12.966  INFO 19774 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1645 ms
+2020-06-20 02:18:13.080  INFO 19774 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/pma-springbootdb'
+2020-06-20 02:18:13.233  INFO 19774 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 02:18:13.445  WARN 19774 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-20 02:18:13.885  INFO 19774 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-20 02:18:14.276  INFO 19774 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7076c342, org.springframework.security.web.context.SecurityContextPersistenceFilter@643b6e29, org.springframework.security.web.header.HeaderWriterFilter@24920595, org.springframework.security.web.authentication.logout.LogoutFilter@2e2884d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c015cf5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ee740f0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65998be0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@deed4dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68cb896d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67d38626, org.springframework.security.web.session.SessionManagementFilter@5ba01225, org.springframework.security.web.access.ExceptionTranslationFilter@2ee49caa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34e159d2]
+2020-06-20 02:18:14.736  INFO 19774 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-06-20 02:18:14.767  INFO 19774 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-20 02:18:14.769  INFO 19774 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-06-20 02:18:14.857  INFO 19774 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-06-20 02:18:14.867  INFO 19774 --- [restartedMain] c.m.p.ProjectManagementApplication       : Started ProjectManagementApplication in 4.0 seconds (JVM running for 4.648)
+2020-06-20 02:18:18.902  INFO 19774 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-20 02:18:18.914  INFO 19774 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-06-20 02:18:18.944 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:18:18.945 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:19.029 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@130ddaba, com.meb.projectmanagement.entities.Employee@3c4b2d8, com.meb.projectmanagement.entities.Employee@21678295, com.meb.projectmanagement.entities.Employee@72b21483, com.meb.projectmanagement.entities.Employee@3fd0c634, com.meb.projectmanagement.entities.Employee@19a4f164, com.meb.projectmanagement.entities.Employee@4cabbef, com.meb.projectmanagement.entities.Employee@66beb1f9, com.meb.projectmanagement.entities.Employee@5f662a7c]}]
+2020-06-20 02:18:19.029 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:20.318 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:18:20.318 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:20.318 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@569faa19}]
+2020-06-20 02:18:20.318 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:21.911 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@10e95830, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]]
+2020-06-20 02:18:21.912 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:21.912 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@10e95830, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]]
+2020-06-20 02:18:21.912 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:24.833 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:18:24.834 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:24.843 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@3f904769, com.meb.projectmanagement.entities.Employee@48975d56, com.meb.projectmanagement.entities.Employee@4749a399, com.meb.projectmanagement.entities.Employee@198b1854, com.meb.projectmanagement.entities.Employee@5c4d0f0b, com.meb.projectmanagement.entities.Employee@1dc5e56e, com.meb.projectmanagement.entities.Employee@54e9b462, com.meb.projectmanagement.entities.Employee@136586b7, com.meb.projectmanagement.entities.Employee@27e4e687]}]
+2020-06-20 02:18:24.843 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:29.590 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:18:29.591 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:29.600 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@1d71cac8, com.meb.projectmanagement.entities.Employee@5c8db930, com.meb.projectmanagement.entities.Employee@4c387902, com.meb.projectmanagement.entities.Employee@65c8823c, com.meb.projectmanagement.entities.Employee@76fc23c7, com.meb.projectmanagement.entities.Employee@47895011, com.meb.projectmanagement.entities.Employee@4876c18b, com.meb.projectmanagement.entities.Employee@698e73db, com.meb.projectmanagement.entities.Employee@7efb8736]}]
+2020-06-20 02:18:29.601 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:32.398 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{}]
+2020-06-20 02:18:32.399 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:32.408 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployees() with arguments[s] = [{employeesList=[com.meb.projectmanagement.entities.Employee@5851f7a9, com.meb.projectmanagement.entities.Employee@61271edf, com.meb.projectmanagement.entities.Employee@22ccf1bb, com.meb.projectmanagement.entities.Employee@6a63b40, com.meb.projectmanagement.entities.Employee@519d7882, com.meb.projectmanagement.entities.Employee@8954588, com.meb.projectmanagement.entities.Employee@4d113c08, com.meb.projectmanagement.entities.Employee@7ada72d1, com.meb.projectmanagement.entities.Employee@40395c60]}]
+2020-06-20 02:18:32.408 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:33.502 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{}]
+2020-06-20 02:18:33.504 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:33.505 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.displayEmployeeForm() with arguments[s] = [{employee=com.meb.projectmanagement.entities.Employee@32e6eb52}]
+2020-06-20 02:18:33.505 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:34.763 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@771648fe, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]]
+2020-06-20 02:18:34.764 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:34.764 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@771648fe, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]]
+2020-06-20 02:18:34.764 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:35.383 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@4df70ac, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]]
+2020-06-20 02:18:35.383 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:35.384 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@4df70ac, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]]
+2020-06-20 02:18:35.384 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:42.345 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@82fd51c, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]]
+2020-06-20 02:18:42.347 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:42.348 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.EmployeeController.createEmployee() with arguments[s] = [com.meb.projectmanagement.entities.Employee@82fd51c, org.springframework.validation.BeanPropertyBindingResult: 5 errors
+Field error in object 'employee' on field 'lastName': rejected value []; codes [NotBlank.employee.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'lastName': rejected value []; codes [Size.employee.lastName,Size.lastName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.lastName,lastName]; arguments []; default message [lastName],30,1]; default message [size must be between 1 and 30]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [NotBlank.employee.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'emailAddress': rejected value []; codes [NotBlank.employee.emailAddress,NotBlank.emailAddress,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.emailAddress,emailAddress]; arguments []; default message [emailAddress]]; default message [Field doesn't accept blank spaces.]
+Field error in object 'employee' on field 'firstName': rejected value []; codes [Size.employee.firstName,Size.firstName,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.firstName,firstName]; arguments []; default message [firstName],30,2]; default message [size must be between 2 and 30]]
+2020-06-20 02:18:42.348 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:42.848 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-20 02:18:42.848 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:42.874 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@49db7448, com.meb.projectmanagement.entities.Project@20be91d7, com.meb.projectmanagement.entities.Project@274c32d3, com.meb.projectmanagement.entities.Project@2a0d46e4]}]
+2020-06-20 02:18:42.874 DEBUG 19774 --- [http-nio-8080-exec-1] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:44.172 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjectForm() with arguments[s] = [{}]
+2020-06-20 02:18:44.179 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:44.191 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjectForm() with arguments[s] = [{project=com.meb.projectmanagement.entities.Project@7a7c4590, allEmployees=[com.meb.projectmanagement.entities.Employee@6dd3e572, com.meb.projectmanagement.entities.Employee@3746c1fd, com.meb.projectmanagement.entities.Employee@1c6a44be, com.meb.projectmanagement.entities.Employee@3ff5976a, com.meb.projectmanagement.entities.Employee@4dff0d93, com.meb.projectmanagement.entities.Employee@4cb764f8, com.meb.projectmanagement.entities.Employee@2b69664, com.meb.projectmanagement.entities.Employee@11eb1f9f, com.meb.projectmanagement.entities.Employee@24cd1ba4]}]
+2020-06-20 02:18:44.191 DEBUG 19774 --- [http-nio-8080-exec-3] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:45.770 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.createProject() with arguments[s] = [com.meb.projectmanagement.entities.Project@588b3e3f, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'project' on field 'name': rejected value []; codes [Size.project.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.name,name]; arguments []; default message [name],30,2]; default message [size must be between 2 and 30]
+Field error in object 'project' on field 'description': rejected value []; codes [NotBlank.project.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.description,description]; arguments []; default message [description]]; default message [Field doesn't accept blank spaces]
+Field error in object 'project' on field 'description': rejected value []; codes [Size.project.description,Size.description,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.description,description]; arguments []; default message [description],250,10]; default message [size must be between 10 and 250]
+Field error in object 'project' on field 'name': rejected value []; codes [NotBlank.project.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.name,name]; arguments []; default message [name]]; default message [Field doesn't accept blank spaces]]
+2020-06-20 02:18:45.771 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:45.772 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.createProject() with arguments[s] = [com.meb.projectmanagement.entities.Project@588b3e3f, org.springframework.validation.BeanPropertyBindingResult: 4 errors
+Field error in object 'project' on field 'name': rejected value []; codes [Size.project.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.name,name]; arguments []; default message [name],30,2]; default message [size must be between 2 and 30]
+Field error in object 'project' on field 'description': rejected value []; codes [NotBlank.project.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.description,description]; arguments []; default message [description]]; default message [Field doesn't accept blank spaces]
+Field error in object 'project' on field 'description': rejected value []; codes [Size.project.description,Size.description,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.description,description]; arguments []; default message [description],250,10]; default message [size must be between 10 and 250]
+Field error in object 'project' on field 'name': rejected value []; codes [NotBlank.project.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [project.name,name]; arguments []; default message [name]]; default message [Field doesn't accept blank spaces]]
+2020-06-20 02:18:45.772 DEBUG 19774 --- [http-nio-8080-exec-5] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:52.218 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{}]
+2020-06-20 02:18:52.219 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:52.225 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.ProjectController.displayProjects() with arguments[s] = [{projectsList=[com.meb.projectmanagement.entities.Project@4a35884b, com.meb.projectmanagement.entities.Project@27ed3de4, com.meb.projectmanagement.entities.Project@62bfee03, com.meb.projectmanagement.entities.Project@94c299f]}]
+2020-06-20 02:18:52.226 DEBUG 19774 --- [http-nio-8080-exec-7] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:54.948 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** Before Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{}]
+2020-06-20 02:18:54.949 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
+2020-06-20 02:18:55.023 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : *************** After Method Execution *************** 
+com.meb.projectmanagement.controllers.HomeController.displayHome() with arguments[s] = [{versionNumber=dev, projectsList=[com.meb.projectmanagement.entities.Project@66cfa329, com.meb.projectmanagement.entities.Project@5b60ee8c, com.meb.projectmanagement.entities.Project@42a1a9f7, com.meb.projectmanagement.entities.Project@2650354], employeesListProjectsCount=[org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@439d211d, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4176b7c6, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@c2ad424, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@26158975, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@6e556b61, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@1ae929ea, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@40385567, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@4a6c2234, org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap@fa7467b], projectStatusCount=[{"value":2,"label":"INPROGRESS"},{"value":1,"label":"COMPLETED"},{"value":1,"label":"NOTSTARTED"}]}]
+2020-06-20 02:18:55.023 DEBUG 19774 --- [http-nio-8080-exec-9] c.m.p.a.l.ApplicationLoggerAspect        : ******************************
+
+
