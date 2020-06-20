@@ -5,7 +5,7 @@ import com.meb.projectmanagement.validators.UniqueValue;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.List;
 
@@ -17,17 +17,17 @@ public class Employee {
     @SequenceGenerator(name = "employee_seq", sequenceName = "employee_seq", allocationSize = 1)
     private long employeeId;
 
-    @NotNull
+    @NotBlank(message="Field doesn't accept blank spaces.")
     @Size(min = 2, max = 30)
     private String firstName;
 
-    @NotNull
+    @NotBlank(message="Field doesn't accept blank spaces.")
     @Size(min = 1, max = 30)
     private String lastName;
 
-    @NotNull
+    @NotBlank(message="Field doesn't accept blank spaces.")
     @UniqueValue
-    @Email
+    @Email(message="Must be a valid email address")
     private String emailAddress;
 
     @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH},

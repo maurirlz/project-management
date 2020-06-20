@@ -3,7 +3,7 @@ package com.meb.projectmanagement.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,15 +16,15 @@ public class Project {
     @SequenceGenerator(name = "project_seq", sequenceName = "project_seq", allocationSize = 1)
     private long projectId;
 
-    @NotNull
+    @NotBlank(message="Field doesn't accept blank spaces")
     @Size(min = 2, max = 30)
     private String name;
 
-    @NotNull
+    @NotBlank(message="Field doesn't accept blank spaces")
     @Size(min = 9, max = 13)
     private String stage; // NOTSTARTED, COMPLETED, INPROGRESS
 
-    @NotNull
+    @NotBlank(message="Field doesn't accept blank spaces")
     @Size(min = 10, max = 250)
     private String description;
 

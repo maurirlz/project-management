@@ -5,9 +5,7 @@ import com.meb.projectmanagement.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -48,5 +46,22 @@ public class EmployeeController {
         employeeService.saveEmployee(employee);
 
         return "redirect:/employees/new";
+    }
+
+    @GetMapping("/update")
+    public String update(@RequestParam("id") Long theId, Model model) {
+
+        Employee employee = employeeService.findEmployeeById(theId);
+        model.addAttribute("employee", employee);
+
+        return "employees/new-employee";
+    }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam("id") Long theId) {
+
+        employeeService.deleteEmployeeById(theId);
+
+        return "redirect:/employees";
     }
 }

@@ -1,6 +1,8 @@
 package com.meb.projectmanagement.entities;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "user_accounts")
@@ -12,11 +14,16 @@ public class UserAccount {
     @Column(name = "user_id")
     private long userId;
 
+    @NotBlank(message = "Field doesn't accept empty spaces.")
     @Column(name = "username")
     private String userName;
 
+    @NotBlank(message = "Field doesn't accept empty spaces.")
     @Column(name = "email_address")
+    @Email(message = "Must provide a valid email.")
     private String emailAddress;
+
+    @NotBlank(message = "Field doesn't accept empty spaces.")
     private String password;
 
     private final boolean enabled = true;

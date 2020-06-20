@@ -46,13 +46,25 @@ input.input-box, textarea {
     border: 1px solid #0B0C10;
 }
 
-.btn-primary, .btn-primary:visited {
+.actionColumn {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.btn-primary, .btn-primary:visited, .btn-info {
     color: #C5C6C7;
     text-align: center;
     font-weight: bolder;
     padding: 0.7em 0.7em;
     background-color: #1F2833;
     border-color: #66FCF1;
+}
+
+.btn-danger {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0.7em 0.7em;
 }
 
 .table-bordered {
@@ -89,11 +101,6 @@ input.input-box, textarea {
     font-weight: bold;
     text-align: left;
     padding: 1em 0 1em 1em;
-}
-
-.container {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .row {

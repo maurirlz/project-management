@@ -10,10 +10,14 @@
 </div>
 <div class="formContainer">
     <form class="containerForm" th:action="@{/employees/save}" th:object="${employee}" method="POST">
+        <input type="hidden" th:field="${employee.employeeId}"/>
+        <!-- Will help us to bind the employee that was clicked on, used for updates. -->
+
         <input class="input-box" type="text" th:field="${employee.firstName}" placeholder="Employee's first name">
         <input class="input-box" type="text" th:field="${employee.lastName}" placeholder="Employee's last name">
         <input class="input-box" type="text" th:field="${employee.emailAddress}" placeholder="Employee's email">
         <button class="btn-primary" type="submit">Add Employee</button>
+
     </form>
 </div>
 </body>
